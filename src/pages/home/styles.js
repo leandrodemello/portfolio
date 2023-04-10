@@ -23,7 +23,7 @@ p {
 
 button {
    height: 30px;
-   width: 110px;
+   width: 120px;
    border-radius: 8px;
 
    margin-top: 20px;
