@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
 div {
    text-align: center;
-   color: #ffff;
+   color: black;
 
    margin-top: 200px;
 }
@@ -30,7 +30,7 @@ button {
    margin-top: 20px;
    
    font-size: 14px;
-   color: #ffff;
+   color: black;
    
    background: rgb(131,58,180);
    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);

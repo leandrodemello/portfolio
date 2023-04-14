@@ -9,6 +9,7 @@ import { Home } from './pages/home';
 import { About } from './pages/about';
 
 
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <ThemeProvider theme={temas}>
