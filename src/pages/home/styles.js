@@ -13,7 +13,7 @@ img {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 43px;
 }
 
 p {
@@ -25,11 +25,11 @@ button {
    height: 30px;
    width: 120px;
    border-radius: 8px;
+   border: none;
 
    margin-top: 20px;
    
-   font-weight: bold;
-   font-size: 15px;
+   font-size: 14px;
    color: #ffff;
    
    background: rgb(131,58,180);
