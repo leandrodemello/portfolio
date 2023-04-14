@@ -1,6 +1,10 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+
+`;
+
+export const Texto = styled.div`
 h1 {
    font-size: 27px;
    font-weight: 700;
@@ -25,27 +29,30 @@ p {
    margin-left: 250px;
 
    color: black;
+
 }
+`;
+
+export const Icones = styled.div`
 
 .container {
-   display: flex;
-   align-items: center;
-   justify-content: end;
-   margin-right: 280px;
-   height: 10vh;
-   gap: 5px;
+	display: flex;                  
+	justify-content: flex-end;
+   margin-right: 240px;
 }
 
-.icons {
-   width: 26px;
-   height: 26px;
+.item {
+      font-size: 36px;
+      margin: 10px;
+      color: #0f91c2;
+   }
+
+a { 
+   color: currentColor;
 }
 
-.icons:hover {
-   color: royalblue;
-   cursor: pointer;
-   transition: 0.2s;
-   
+.item:hover{
+   transition: 0.5s;
+   color: #7ccae8;
 }
-   
 `;

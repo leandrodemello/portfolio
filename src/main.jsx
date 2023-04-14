@@ -7,6 +7,7 @@ import Global from './styles/global';
 
 import { Home } from './pages/home';
 import { About } from './pages/about';
+import { Portfolio } from './pages/portfolio';
 
 
 
@@ -14,7 +15,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <ThemeProvider theme={temas}>
       <Global />
-      <About />
+      <Portfolio />
     </ThemeProvider>
   </React.StrictMode>,
 )

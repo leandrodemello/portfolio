@@ -5,7 +5,7 @@ div {
    text-align: center;
    color: black;
 
-   margin-top: 200px;
+   margin-top: 100px;
 }
 
 img {

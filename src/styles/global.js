@@ -8,8 +8,9 @@ export default createGlobalStyle`
  }
 
  body {
-  background: #FFFF;
-  //background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,94,1) 19%, rgba(0,212,255,1) 100%);
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(233,163,148,1) 100%);
+
  }
 
  body, input, button, textarea {

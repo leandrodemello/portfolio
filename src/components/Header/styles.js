@@ -28,9 +28,7 @@ span {
          
 }
 
-span:hover {
-   cursor: pointer;
-}
+
    
 `;
 

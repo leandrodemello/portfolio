@@ -13,7 +13,7 @@ export function Header(){
          <nav>
             <ul>
                <li>Sobre</li>
-               <li>Portfólio</li>
+               <li>Projetos</li>
                <li>Contato</li>
             </ul>
          </nav>
