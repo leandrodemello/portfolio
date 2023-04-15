@@ -19,7 +19,7 @@ export function About() {
 
       <Texto>
         <h1>Me chamo Leandro</h1>
-          <p>Sou um desenvolvedor web Front-End apaixonado pelo que faço,
+          <p>Sou um Desenvolvedor Web Front-End apaixonado pelo que faço,
           e desde que comecei tenho estado em constante aprendizado, sempre me colocando a 
           disposição para aprender uma nova tecnologia ou ferramenta, porque acredito que na 
           programação não existe um limite, sempre há um próximo nível.</p>
