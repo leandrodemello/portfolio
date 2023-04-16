@@ -72,7 +72,7 @@ h1 {
 }
 
 .card img {
-   height: 416px;
+   height: 316px;
    object-fit: cover;
 
    border-radius: 9px;
@@ -83,7 +83,7 @@ h1 {
 }
 
 .card img:hover {
-   //transform: scale(1.1);
+   transform: scale(1.1);
    opacity: 0.8;
 }
 
@@ -99,23 +99,6 @@ h1 {
 
    color: #ffff;
 
-   > a {
-      width: 100%;
-   
-      text-align: end;
-
-      //background-color: black;
-   }
-
-   > a button {
-      font-size: 100%;
-      border-radius: 10px;
-      padding: 0 10px;
-      height: 38px;
-
-      border: none;
-   }
-
 }
 
 .card span button {
@@ -130,21 +113,6 @@ h1 {
    border: none;
 
 }
-
-//.card a {
-   //font-size: 36px;
-   //   margin: 10px;
-    //  color: #0f91c2;
-    //  color: currentColor;
-   
-
-
-
-   //.item:hover{
-   //transition: 0.5s;
-   //color: #7ccae8;
-
-//}
 
 img {
    width: 100%;
