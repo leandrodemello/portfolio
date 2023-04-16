@@ -7,9 +7,6 @@ import { BsFileEarmarkArrowDownFill} from "react-icons/bs";
 
 import { Link } from "react-router-dom";
 
-
-
-
 export function About() {
   
   return (

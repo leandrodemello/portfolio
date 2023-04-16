@@ -10,18 +10,31 @@ div {
 
 img {
    margin-bottom: 20px;
+   border-style: solid;
+   border-width: 3px;
+   border-radius: 50%;
+   animation: mymove 5s infinite;
+   border-color: #d41818;
+
+  @keyframes mymove {
+  50% {border-color: LightSkyBlue;}
+}
+
 }
 
 h1 {
   font-size: 43px;
+  color: #0B3E60;
 }
 
 p {
    font-size: 20px;
    margin-top: 10px;
+   color: #425F88;
 }
 
 button {
+   font-weight: 700;
    height: 30px;
    width: 120px;
    border-radius: 8px;
@@ -31,9 +44,9 @@ button {
    
    font-size: 14px;
    color: black;
+
    
-   background: rgb(131,58,180);
-   background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+   background: #58a1d6;
    
 }
 `;
