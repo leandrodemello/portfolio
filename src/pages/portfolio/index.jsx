@@ -23,6 +23,9 @@ export function Portfolio() {
               <a href="http://www.google.com">
                   <button><BsGithub/></button>
               </a>
+              <a href="http://www.google.com">
+                  <button><BsGithub/></button>
+              </a>
               <span>
                 <button>HTML</button>
                 <button>CSS</button>

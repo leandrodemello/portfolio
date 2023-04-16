@@ -30,7 +30,6 @@ export function About() {
                      />
                   </a>
             </div>
-          
 
             <div className='item'>
                 <a href="https://www.linkedin.com/in/leandro-mello-47a24823b/" target="_blank">

@@ -99,6 +99,23 @@ h1 {
 
    color: #ffff;
 
+   > a {
+      width: 100%;
+   
+      text-align: end;
+
+      //background-color: black;
+   }
+
+   > a button {
+      font-size: 100%;
+      border-radius: 10px;
+      padding: 0 10px;
+      height: 38px;
+
+      border: none;
+   }
+
 }
 
 .card span button {
@@ -114,11 +131,11 @@ h1 {
 
 }
 
-.card a {
-   font-size: 36px;
-      margin: 10px;
-      color: #0f91c2;
-      color: currentColor;
+//.card a {
+   //font-size: 36px;
+   //   margin: 10px;
+    //  color: #0f91c2;
+    //  color: currentColor;
    
 
 
@@ -127,7 +144,7 @@ h1 {
    //transition: 0.5s;
    //color: #7ccae8;
 
-}
+//}
 
 img {
    width: 100%;
