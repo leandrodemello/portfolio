@@ -27,7 +27,7 @@ span {
    font-weight: bold;
 
    margin-left: 10px;
-   color: #c7d9e6;
+   color: #FFFF;
          
 }
 
@@ -44,7 +44,7 @@ li {
    margin-right: 30px;
       
       
-   color: #c7d9e6;
+   color: #FFFF;
 
    list-style: none;
    float: left;

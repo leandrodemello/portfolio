@@ -15,7 +15,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <ThemeProvider theme={temas}>
       <Global />
-      <Portfolio />
+      <Portfolio/>
     </ThemeProvider>
   </React.StrictMode>,
 )

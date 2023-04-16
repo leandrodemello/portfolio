@@ -14,8 +14,10 @@ export function Portfolio() {
 
         <main>
           <div className="card">
-              <a href="http://www.google.com"target="_blank"><img src="190703.jpg" alt="projeto 01"/></a>
-            <h2>PROJETO 01<span><button>HTML</button><button>CSS</button><button>JavaScript</button><button>ReactJs</button></span></h2>
+              <a href="http://www.google.com"target="_blank"><img src="troll.gif" alt="projeto 01"/></a>
+            <h2>Realidade Americana
+              <p>Projeto criado para edição de vídeos e audio para...</p>
+              <span><button>HTML</button><button>CSS</button><button>JavaScript</button><button>ReactJs</button></span></h2>
 
           </div>
 
