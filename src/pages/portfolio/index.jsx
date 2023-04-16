@@ -14,28 +14,28 @@ export function Portfolio() {
 
         <main>
           <div className="card">
-              <a href="http://www.google.com"><img src="190703.jpg" alt="projeto 01"/></a>
+              <a href="http://www.google.com"target="_blank"><img src="190703.jpg" alt="projeto 01"/></a>
             <h2>PROJETO 01<span><button>HTML</button><button>CSS</button><button>JavaScript</button><button>ReactJs</button></span></h2>
 
           </div>
 
           <div className="card">
-            <a href="http://www.google.com"><img src="190703.jpg" alt="projeto 01"/></a>
+            <a href="http://www.google.com"target="_blank"><img src="190703.jpg" alt="projeto 01"/></a>
             <h2>PROJETO 02<span><button>HTML</button><button>CSS</button><button>JavaScript</button><button>ReactJs</button></span></h2>
           </div>        
         
           <div className="card">
-            <a href="http://www.google.com"><img src="190703.jpg" alt="projeto 01"/></a>
+            <a href="http://www.google.com"target="_blank"><img src="190703.jpg" alt="projeto 01"/></a>
             <h2>PROJETO 03<span><button>HTML</button><button>CSS</button><button>JavaScript</button><button>ReactJs</button></span></h2>
           </div>        
         
           <div className="card">
-            <a href="http://www.google.com"><img src="190703.jpg" alt="projeto 01"/></a>
+            <a href="http://www.google.com"target="_blank"><img src="190703.jpg" alt="projeto 01"/></a>
             <h2>PROJETO 04<span><button>HTML</button><button>CSS</button><button>JavaScript</button><button>ReactJs</button></span></h2>
           </div>        
         
           <div className="card">
-            <a href="http://www.google.com"><img src="190703.jpg" alt="projeto 01"/></a>
+            <a href="http://www.google.com"target="_blank"><img src="190703.jpg" alt="projeto 01"/></a>
             <h2>PROJETO 05<span><button>HTML</button><button>CSS</button><button>JavaScript</button><button>ReactJs</button></span></h2>
           </div>        
         
