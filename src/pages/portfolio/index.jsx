@@ -10,7 +10,7 @@ export function Portfolio() {
       <div className="page">
       
       
-        <h1>Projetos</h1>
+        <h1>Meus projetos</h1>
 
         <main>
           <div className="card">

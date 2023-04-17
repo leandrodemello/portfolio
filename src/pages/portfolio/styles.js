@@ -27,7 +27,6 @@ main div:nth-child(2) {
    height: 270px; //altura vertical do cinza
    width: 300px;  // largura horizontal do cinza
    margin: 0 auto;  //margim horizontal do cinxa
-
    
 }
 main div:nth-child(3) {
@@ -84,19 +83,17 @@ main {
 
 }
 
-
-
 h1 {
    font-size: 4.0rem;
    //text-transform: uppercase;
    margin-top: 5.0rem;   //pc 10.0rem
    margin-bottom: 3.0rem;
-   text-align: end;
+
+   text-align: center;
 
    line-height: 6.0rem;
    letter-spacing: 1px;
-};
-
+}
 
 .card {
    position: relative;
@@ -113,8 +110,6 @@ h1 {
 
    transition: transform 200ms;
 
-   //filter: brightness(0.5) saturate(1.5);
-
    margin: 12px 20px 0 20px; 
    
    opacity: 0.7;
@@ -127,36 +122,42 @@ h1 {
 }
 
 .card h2 {
-   font-size: 17px;
-   text-align: end;
-   //position: absolute;
-   //bottom: 30px;
-   //left: 18px;
+   position: absolute;
+   width: 100%;
+
+   font-size: 18px;
+   font-weight: 400;
+
    padding-right: 2.0rem;
    padding-left: 2.0rem;
 
-   font-weight: 400;
-
    display: flex;
    flex-direction: column;
+   text-align: end;
 
    color: #ffff;
-
 }
 
 .card p {
    font-size: 12px;
    
-   //background-color: #3fa1e8;
 }
 
-.card span button {
+.card span {
+   display: flex;
+   justify-content: flex-end;
+   padding-top: 3px;
+   gap: 5px;
+
+}
+
+.card button  {
    font-size: 12px;
    border-radius: 7px;
    background-color: #ffff;
    color: black;
+   height: 2.6rem;
    padding: 0 1.0rem;
-   height: 2.8rem;
    
    border: none;
    
@@ -178,9 +179,15 @@ img {
    }
 
    main {
-      height: 290px;
+      height: 500px;
+      justify-content: center;
    }  
 
+   h1 {
+   text-align: end;
+   margin-right: 40px;
+
+   }
 }
    
 @media (min-width: 1020px) {
@@ -193,19 +200,23 @@ img {
       D" "E F";
    }
 
+   main {
+      height: 360px;
+   }  
+
    main div:nth-child(1) {
       grid-area: A;
       background-color: #9aa9af;
-      height: 330px; //altura vertical do cinza
-      width: 440px;  // largura horizontal do cinza
+      height: 340px; //altura vertical do cinza
+      width: 435px;  // largura horizontal do cinza
       margin: 0 auto;  //margim horizontal do cinxa
       
    }
    main div:nth-child(2) {
       grid-area: B;
       background-color: #9aa9af;   
-      height: 330px; //altura vertical do cinza
-      width: 440px;  // largura horizontal do cinza
+      height: 340px; //altura vertical do cinza
+      width: 435px;  // largura horizontal do cinza
       margin: 0 auto;  //margim horizontal do cinxa
    
       
@@ -213,32 +224,32 @@ img {
    main div:nth-child(3) {
       grid-area: C;
       background-color: #9aa9af;
-      height: 330px; //altura vertical do cinza
-      width: 450px;  // largura horizontal do cinza
+      height: 340px; //altura vertical do cinza
+      width: 435px;  // largura horizontal do cinza
       margin: 0 auto;  //margim horizontal do cinxa
    
    }
    main div:nth-child(4) {
       grid-area: D;
       background-color: #9aa9af;
-      height: 330px; //altura vertical do cinza
-      width: 450px;  // largura horizontal do cinza
+      height: 340px; //altura vertical do cinza
+      width: 435px;  // largura horizontal do cinza
       margin: 0 auto;  //margim horizontal do cinxa
    
    }
    main div:nth-child(5) {
       grid-area: E;
       background-color: #9aa9af;
-      height: 330px; //altura vertical do cinza
-      width: 450px;  // largura horizontal do cinza
+      height: 340px; //altura vertical do cinza
+      width: 435px;  // largura horizontal do cinza
       margin: 0 auto;  //margim horizontal do cinxa
    
    }
    main div:nth-child(6) {
       grid-area: F;
       background-color: #9aa9af;
-      height: 330px; //altura vertical do cinza
-      width: 450px;  // largura horizontal do cinza
+      height: 340px; //altura vertical do cinza
+      width: 435px;  // largura horizontal do cinza
       margin: 0 auto;  //margim horizontal do cinxa
    
    }
@@ -249,11 +260,16 @@ img {
    
    }
 
-   main {
-      height: 350px;
-   }  
+   .card h2 {
+   font-size: 20px;
+   width: 100%;
+   //background-color: #3fa1e8;
+   }
 
-
+   .card p {
+   font-size: 15px;
+   
+   }
 
 }
 
@@ -264,11 +280,5 @@ img {
    main {
       grid-template-areas: "A B C" "D E F";
    }
-
-   main {
-      height: 350px;
-      width: 1380px;
-   }  
 }
-
 `;
