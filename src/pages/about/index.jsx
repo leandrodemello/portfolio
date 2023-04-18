@@ -1,4 +1,4 @@
-import { Container, Texto, Icones } from './styles';
+import { Container } from './styles';
 
 import { Header } from '../../components/Header';
 
@@ -13,17 +13,15 @@ export function About() {
     <Container>
 
       <Header/>
+        
+        <div className="about">
+          <h1>Me chamo Leandro</h1>
+            <p>Sou um Desenvolvedor Web Front-End apaixonado pelo que faço,
+            e desde que comecei tenho estado em constante aprendizado, sempre me colocando a 
+            disposição para aprender uma nova tecnologia ou ferramenta, porque acredito que na 
+            programação não existe um limite, sempre há um próximo nível.</p>
 
-      <Texto>
-        <h1>Me chamo Leandro</h1>
-          <p>Sou um Desenvolvedor Web Front-End apaixonado pelo que faço,
-          e desde que comecei tenho estado em constante aprendizado, sempre me colocando a 
-          disposição para aprender uma nova tecnologia ou ferramenta, porque acredito que na 
-          programação não existe um limite, sempre há um próximo nível.</p>
-      </Texto>
-
-      <Icones>
-        <div className='container'>
+          <div className='container'>
             <div className='item'>
                 <a href="https://github.com/leandrodemello" target="_blank">
                     <FaGithub 
@@ -44,10 +42,10 @@ export function About() {
                     />
                 </a>
             </div>
-
           
+          </div>
+
         </div>
-      </Icones>
           
     </Container>
     

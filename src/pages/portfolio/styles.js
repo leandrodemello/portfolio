@@ -184,8 +184,8 @@ img {
    }  
 
    h1 {
-   text-align: end;
-   margin-right: 40px;
+       text-align: end;
+       margin-right: 40px;
 
    }
 }
