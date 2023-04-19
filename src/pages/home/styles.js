@@ -4,11 +4,9 @@ export const Container = styled.div`
 
 .home {
    text-align: center;
-   color: black;
+   padding: 10px;
 
-
-
-   margin-top: 100px;
+   margin-top: 20px;
 
    img {
    margin-bottom: 20px;
@@ -26,13 +24,13 @@ export const Container = styled.div`
   
   h1 {
     font-size: 43px;
-    color: #0B3E60;
+    color: ${props => props.theme.fontColor};
   }
   
   p {
      font-size: 20px;
      margin-top: 10px;
-     color: #425F88;
+     color: ${props => props.theme.fontColor};
   }
   
   button {
@@ -45,15 +43,24 @@ export const Container = styled.div`
      margin-top: 20px;
      
      font-size: 14px;
-     color: black;
+     color: ${props => props.theme.fontColor};
   
      
      background: #58a1d6;
      
   }
 
-
-     
 }
+
+@media (min-width: 768px) {
+   .home {
+   margin-top: 100px;
+   }
+
+   button {
+   }
+
+}
+     
 
 `;

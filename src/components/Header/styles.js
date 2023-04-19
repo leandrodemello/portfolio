@@ -1,61 +1,56 @@
 import styled from "styled-components";
 
 export const Container = styled.header`
-    grid-area: header; 
+    grid-area: header;
 
-    height: 40px; 
+    height: 90px; 
     width: 100%; 
-    
-    background-color:  #1873b0;
 
-    border-bottom-width: 1px; 
-    border-bottom-style: solid; 
-    border-bottom-color: #87aae6; 
+    background-color:  ${props => props.theme.body};
 
     display: flex; 
     justify-content: space-between;
+    align-items: center;
 
-    margin: auto;
+    padding: 15px;
+
 
 `;
 
 export const Profile = styled.div`
 
 span {
-   text-align: justify;
    font-size: 20px;
-   font-weight: bold;
-
-   margin-left: 10px;
-   color: #FFFF;
+   color: ${props => props.theme.fontColor};
          
 }
-
-
-   
 `;
 
 export const Navega = styled.div`
 
 li {
 
-   text-align: justify;
    font-size: 17px;
-   margin-right: 30px;
-      
-      
-   color: #FFFF;
+   color: ${props => props.theme.fontColor};
 
    list-style: none;
+
+   padding: 2px;
+
+   @media (min-width: 770px) {
+   max-width: 1900px;
+   
    float: left;
 
-   padding: 10px;
+   margin-left: 25px;
+   
 
+}
 }
 
 li:hover {
    cursor: pointer;
 }
 
-   
+
 `;

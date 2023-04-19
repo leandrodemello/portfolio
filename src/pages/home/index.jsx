@@ -11,6 +11,7 @@ export function Home() {
         <p>Desenvolvedor Web Front-End </p>
         <button>Me conhecer</button>
       </div>
+
     </Container>
   )
 }

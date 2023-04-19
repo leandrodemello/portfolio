@@ -6,7 +6,7 @@ max-width: 425px;
 margin: 0 auto;
 
 .about {
-   
+   padding: 15px;
 }
 
 h1 {
@@ -14,8 +14,6 @@ font-size: 27px;
    color: black;
    line-height: 60px;
    text-align: right;
-
-   padding: 10px;
 
    margin-top: 50px;
 
@@ -27,7 +25,7 @@ font-size: 27px;
    line-height: 30px;
    text-align: justify;
 
-   padding: 10px;
+   padding: 15px;
 
  }
 
@@ -35,7 +33,7 @@ font-size: 27px;
 	display: flex;                  
 	justify-content: flex-end;
 
-   padding: 5px;
+   padding: 10px;
    gap: 3px;
  }
 
@@ -78,7 +76,7 @@ font-size: 27px;
  }
 
  @media (min-width: 1440px) {
-   max-width: 1534px;
+   max-width: 1734px;
 
    .about {
       margin-left: 250px;

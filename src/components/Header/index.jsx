@@ -4,7 +4,7 @@ export function Header(){
   return (
     <Container>
       <Profile>
-        <div class="nome">
+        <div className="nome">
           <span>Leandro Mello</span>
         </div>
       </Profile>
@@ -17,6 +17,7 @@ export function Header(){
                <li>Contato</li>
             </ul>
          </nav>
+
       </Navega>
 
     </Container>
