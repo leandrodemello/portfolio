@@ -24,17 +24,14 @@ export default createGlobalStyle`
 
  a {
    text-decoration: none;
-
+   color: ${props => props.theme.fontColor};
  }
 
  button, a {
+   border: none;
    cursor: pointer;
-   transition: filter 0.2s;
 
  }
 
- button:hover ,a:hover {
-  filter: brightness(0.9);
   
- }
 `;

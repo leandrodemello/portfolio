@@ -7,34 +7,31 @@ margin: 0 auto;
 
 .about {
    padding: 15px;
+   margin: 50px 0 100px 0;
 }
 
 h1 {
-font-size: 27px;
-   color: black;
+   font-size: 27px;
+   color: ${props => props.theme.fontColor};
    line-height: 60px;
    text-align: right;
 
-   margin-top: 50px;
 
  }
 
  p {
    font-size: 23px;
-   color: black;
+   color: ${props => props.theme.fontColor};
    line-height: 30px;
    text-align: justify;
-
-   padding: 15px;
 
  }
 
  .container {
 	display: flex;                  
 	justify-content: flex-end;
+  gap: 3px;
 
-   padding: 10px;
-   gap: 3px;
  }
 
  .item {
@@ -56,20 +53,20 @@ font-size: 27px;
    max-width: 1020px;
 
    .about {
-      margin-left: 80px;
-      margin-right: 80px;
+    margin-left: 40px;
+    margin-right: 40px;
    }
-
 
  }
 
  @media (min-width: 1024px) {
    max-width: 1440px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
 
-   .about {
-      
-      margin-left: 80px;
-      width: 864px;
+  .about {
+  width: 864px;
       
    }
 
@@ -78,9 +75,6 @@ font-size: 27px;
  @media (min-width: 1440px) {
    max-width: 1734px;
 
-   .about {
-      margin-left: 250px;
-   }
  }
 
 

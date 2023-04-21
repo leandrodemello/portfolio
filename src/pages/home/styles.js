@@ -6,7 +6,7 @@ export const Container = styled.div`
    text-align: center;
    padding: 10px;
 
-   margin-top: 20px;
+   margin-top: 70px;
 
    img {
    margin-bottom: 20px;
@@ -37,27 +37,41 @@ export const Container = styled.div`
      font-weight: 700;
      height: 30px;
      width: 120px;
-     border-radius: 8px;
-     border: none;
+     border-radius: 3px;
+     border: 1px;
+     border-style: solid;
+     border-color: #6ec0da;
   
      margin-top: 20px;
+     
      
      font-size: 14px;
      color: ${props => props.theme.fontColor};
   
      
-     background: #58a1d6;
+     //background: #58a1d6;
      
   }
+
+  button:hover {
+  cursor: pointer;
+  color: #FFFF;
+  border: none;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(103,106,214,1) 64%, rgba(0,212,255,1) 100%);
+}
+
+
+
+  a { 
+   color: currentColor;
+    }
 
 }
 
 @media (min-width: 768px) {
    .home {
    margin-top: 100px;
-   }
-
-   button {
    }
 
 }

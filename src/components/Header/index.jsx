@@ -1,5 +1,7 @@
 import { Container, Profile, Navega } from "./styles";
 
+import { Link } from "react-router-dom";
+
 export function Header(){
   return (
     <Container>
@@ -12,9 +14,32 @@ export function Header(){
       <Navega>
          <nav>
             <ul>
-               <li>Sobre</li>
-               <li>Projetos</li>
-               <li>Contato</li>
+
+               <li>
+                  <Link to="/">
+                    Home
+                  </Link>
+                </li>
+                
+                <li>
+                  <Link to="/about">
+                    Sobre
+                  </Link>
+                </li>
+                
+
+               <li>
+                  <Link to="/portfolio">
+                    Projetos
+                  </Link>
+                </li>
+
+               <li>
+                  <Link to="/contact">
+                    Contato
+                 </Link>
+               </li>
+
             </ul>
          </nav>
 
@@ -23,3 +48,4 @@ export function Header(){
     </Container>
   );
 }
+

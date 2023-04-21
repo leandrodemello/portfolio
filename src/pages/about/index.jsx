@@ -5,7 +5,6 @@ import { Header } from '../../components/Header';
 import { FaGithub, FaLinkedin  } from "react-icons/fa";
 import { BsFileEarmarkArrowDownFill} from "react-icons/bs";
 
-import { Link } from "react-router-dom";
 
 export function About() {
   

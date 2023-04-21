@@ -85,7 +85,7 @@ main {
 
 h1 {
    font-size: 4.0rem;
-   //text-transform: uppercase;
+   color: ${props => props.theme.fontColor};
    margin-top: 5.0rem;   //pc 10.0rem
    margin-bottom: 3.0rem;
 
@@ -135,7 +135,7 @@ h1 {
    flex-direction: column;
    text-align: end;
 
-   color: #ffff;
+   color: ${props => props.theme.fontColor};
 }
 
 .card p {
@@ -167,6 +167,10 @@ img {
    width: 100%;
    height: auto;
 }
+
+a { 
+   color: currentColor;
+   }
 
 @media (min-width: 768px) {
    .page {
