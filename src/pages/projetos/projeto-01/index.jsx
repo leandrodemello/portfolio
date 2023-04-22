@@ -21,7 +21,7 @@ export function Projeto01() {
          </div>
          <div className="tech">
              <span>Tech Stack:</span>
-               <p>ReactJS</p>
+               <p>ReactJS | JavaScript | CSS | HTML</p>
 
          </div>
 

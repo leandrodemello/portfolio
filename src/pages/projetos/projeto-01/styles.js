@@ -16,6 +16,12 @@ a {
    margin-top: 50px;
 
    padding: 20px;
+
+   p {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      font-size: 18px;
+   }
    
 }
 
@@ -23,17 +29,18 @@ h1 {
    font-size: 40px;
 }
 
-p {
-   font-size: 18px;
-   margin-bottom: 10px;
-}
 
 .tech {
+   font-size: 15px;
    display: flex;
    justify-content: flex-end;
-
+   align-items: center;
+   
    padding: 10px;
    width: 650px;
+   p {
+      margin-left: 10px;
+   }
    
 }
 
