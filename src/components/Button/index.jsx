@@ -1,6 +1,8 @@
 import { useState } from "react";
-import { TbSunOff, TbSun } from 'react-icons/tb';
+
 import { Container } from "./styles";
+
+import { TbSunOff, TbSun } from 'react-icons/tb';
 import { lightTheme , darkTheme } from '../../styles/theme';
 
 
