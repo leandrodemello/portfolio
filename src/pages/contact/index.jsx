@@ -4,6 +4,9 @@ import { Header } from '../../components/Header';
 import { Form } from 'react-router-dom';
 import { useState } from 'react';
 
+import { FaGithub, FaLinkedin  } from "react-icons/fa";
+import { BsFileEarmarkArrowDownFill} from "react-icons/bs";
+
 export function Contact() {
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
@@ -16,22 +19,22 @@ export function Contact() {
   return (
     <Container>
       <Header/>
-        <h1 className='title'>Contato</h1>
         <div className="container">
+          <h1 className='title'>Contato</h1>
 
           <form className="form" onSubmit={() => {}}>
             <input
              className="input"
              type="text"
-             placeholder="Digite seu nome"
+             placeholder="Nome"
              onChange={(e) => {setEmail(e.target.value)}}
              value={name}
             />
 
             <input
              className="input"
-             type="email"
-             placeholder="Digite seu email"
+             type="text"
+             placeholder="E-mail"
              onChange={(e) => {setName(e.target.value)}}
              value={email}
             />
@@ -39,14 +42,42 @@ export function Contact() {
             <textarea
              className="textarea"
              type="text"
-             placeholder="Digite sua mensagem..."
+             placeholder="Mensagem..."
              onChange={(e) => {setMessage(e.target.value)}}
              value={message}
             />
+
+            <input className='button' type="submit" value="Enviar" />
           </form>
         </div>
+        
+        <div className='icones'>
+            <div className='item'>
+                <a href="https://github.com/leandrodemello" target="_blank">
+                    <FaGithub 
+                     />
+                  </a>
+            </div>
 
-        <input className='button' type="submit" value="Enviar" />
+            <div className='item'>
+                <a href="https://www.linkedin.com/in/leandro-mello-47a24823b/" target="_blank">
+                    <FaLinkedin
+                    />
+                 </a>
+            </div>
+
+            <div className='item'>
+                <a href="http://www.google.com" target="_blank">
+                    <BsFileEarmarkArrowDownFill
+                    />
+                </a>
+            </div>
+          
+        </div>
+
+
+
+
     </Container>
   )
 };

@@ -3,16 +3,21 @@ import styled from "styled-components";
 export const Container = styled.header`
     grid-area: header;
 
-    height: 110px; 
+    height: 120px; 
     width: 100%; 
-
+    
     background-color:  ${props => props.theme.body};
-
+    
     display: flex; 
     justify-content: space-between;
     align-items: center;
-
+    
     padding: 15px;
+    
+    @media (min-width: 770px) {
+       height: 50px; 
+       
+   }
 
 `;
 
