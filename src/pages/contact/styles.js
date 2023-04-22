@@ -37,7 +37,7 @@ form {
 .input {
   height: 40px;
   width: 250px;
-  padding: 5px;
+  padding: 10px;
   border: none;
   border-radius: 3px;
   margin-bottom: 10px;
@@ -50,6 +50,7 @@ form {
 .textarea {
   height: 150px;
   width: 250px;
+  padding: 10px;
   border: none;
   border-radius: 3px;
   background-color: #d4e3ee;
@@ -116,5 +117,9 @@ h1 {
 }
 }
 
+
+`;
+
+export const Imput = styled.div`
 
 `;

@@ -37,7 +37,7 @@ h1 {
  .item {
       font-size: 29px;
       margin: 5px;
-      color: #0f91c2;
+      color: #79cded;
    }
 
  a { 
@@ -46,7 +46,7 @@ h1 {
 
  .item:hover{
    transition: 0.5s;
-   color: #7ccae8;
+   color: #0f91c2;
  }
 
  @media (min-width: 768px) {

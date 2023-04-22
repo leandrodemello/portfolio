@@ -1,19 +1,46 @@
-import { Container } from './styles';
-
-import { Header } from '../../components/Header';
-import { Form } from 'react-router-dom';
 import { useState } from 'react';
+import emailjs from '@emailjs/browser';
+import { useNavigate } from 'react-router-dom';
+
+
+import { Container } from './styles';
+import { Header } from '../../components/Header';
+import { Imput } from '../../components/Imput';
+import { Textarea } from '../../components/Textarea';
 
 import { FaGithub, FaLinkedin  } from "react-icons/fa";
 import { BsFileEarmarkArrowDownFill} from "react-icons/bs";
 
 export function Contact() {
-  const [name, setName] = useState('')
-  const [email, setEmail] = useState('')
-  const [message, setMessage] = useState('')
+  const [name, setName] = useState("")
+  const [email, setEmail] = useState("")
+  const [message, setMessage] = useState("")
 
-  function sendEmail(){
-    alert("")
+  const navigate = useNavigate();
+
+  function sendEmail(e){
+    e.preventDefault();
+
+    if(name === '' || email === '' || message === ''){
+      alert("Preencha todos os campos!");
+      return;
+    }
+
+    const templateParams = {
+      from_name: name,
+      message: message,
+      email: email
+    }
+
+    emailjs.send("service_pemksdk", "template_ds828xv", templateParams, "PzHoeLG1yXqd_QHAo")
+    .then(() => {
+      alert("E-mail enviado com sucesso!");
+      navigate("/");
+      
+    }, (err) => {
+       console.log("Erro", err)
+    })
+    
   }
   
   return (
@@ -22,28 +49,28 @@ export function Contact() {
         <div className="container">
           <h1 className='title'>Contato</h1>
 
-          <form className="form" onSubmit={() => {}}>
-            <input
+          <form className="form" onSubmit={sendEmail}>
+
+            <Imput
              className="input"
-             type="text"
              placeholder="Nome"
-             onChange={(e) => {setEmail(e.target.value)}}
+             onChange={(e) => setName(e.target.value)}
              value={name}
             />
 
-            <input
+            <Imput
              className="input"
-             type="text"
+             type="email"
              placeholder="E-mail"
-             onChange={(e) => {setName(e.target.value)}}
+             onChange={(e) => setEmail(e.target.value)}
              value={email}
             />
 
-            <textarea
+            <Textarea
              className="textarea"
              type="text"
              placeholder="Mensagem..."
-             onChange={(e) => {setMessage(e.target.value)}}
+             onChange={(e) => setMessage(e.target.value)}
              value={message}
             />
 
@@ -74,10 +101,7 @@ export function Contact() {
             </div>
           
         </div>
-
-
-
-
     </Container>
   )
+
 };
