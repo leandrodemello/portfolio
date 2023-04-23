@@ -1,23 +1,32 @@
 import { Container } from './styles';
 
-import { FaGithub } from "react-icons/fa";
-import { BsGlobe2 } from "react-icons/bs";
 import { Header } from '../../../components/Header';
 
+import { Link } from 'react-router-dom';
 
-export function Projeto1() {
+import { FaGithub } from "react-icons/fa";
+import { BsGlobe2 } from "react-icons/bs";
+
+
+
+export function Projeto3() {
   
   return (
      <Container>
       <Header />
-      <div className="page-pt">
+
          <div className="project">
-             <h1>Clone da Netflix</h1>
-             <h2>Um clone de uma das maiores stream do mundo.</h2>
+             <h1>Clone da Netflix 03</h1>
+             <p>Um clone de uma das maiores stream do mundo.</p>
              <img src="troll.gif" alt="projeto 01"/>
-             <span>Tech Stack: ReactJS | JavaScript | CSS | HTML</span>
-            
-            <div className='deploy'>
+         </div>
+         <div className="tech">
+             <span>Tech Stack:</span>
+               <p>ReactJS | JavaScript | CSS | HTML</p>
+
+         </div>
+
+         <div className='deploy'>
             <div className='icone-d'>
                 <a href="https://github.com/leandrodemello" target="_blank">
                     <FaGithub 
@@ -33,11 +42,7 @@ export function Projeto1() {
                  </a>
                  <p>live</p>
             </div>
-           </div>
-        </div>
-
-
-      </div>
+          </div>
 
     </Container>
   )

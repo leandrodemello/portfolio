@@ -1,60 +1,60 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-display: flex;
-flex-direction: column;
-align-items: center;
+min-width: 425px;
+
 
 a { 
    color: currentColor;
 }
 
 .project {
+   transition: 1s;
+
    display: flex;
    flex-direction: column;
-   align-items: flex-end;
-   margin-top: 50px;
+   align-items: center;
+   margin-top: 30px;
 
    padding: 20px;
 
-   p {
-      margin-top: 10px;
-      margin-bottom: 10px;
-      font-size: 18px;
+   h1 {
+   font-size: 23px;
+   transition: 1s;
+
+
    }
-   
-}
 
-h1 {
-   font-size: 40px;
-}
-
-
-.tech {
+   h2  {
    font-size: 15px;
-   display: flex;
-   justify-content: flex-end;
-   align-items: center;
-   
-   padding: 10px;
-   width: 650px;
-   p {
-      margin-left: 10px;
-   }
-   
-}
+   margin-top: 10px;
+   margin-bottom: 10px;
+   text-align: justify;
+   transition: 1s;
 
-span {
-   font-size: 20px;
+   }
+
+   span {
+    font-size: 14px;
+    padding: 10px;
+    transition: 1s;
+
+   }
+
+   img {
+   height: 250px; 
+   width: 350px;
+   transition: 1s;
+
+   }
    
 }
 
 .deploy {
    display: flex;
-   justify-content: flex-end;
+   justify-content: center;
    font-size: 29px;
    padding: 10px;
-   width: 650px;
    color: #79cded;
 }
 
@@ -73,5 +73,51 @@ span {
    transition: 0.5s;
    color: #0f91c2;
 }
+
+@media (min-width: 768px) {
+   
+.project {
+   transition: 1s;
+   
+   margin-top: 5px;
+   padding: 5px;
+
+   h1 {
+   font-size: 40px;
+   }
+
+   h2 {
+   font-size: 18px;
+   
+   }
+
+   span {
+      font-size: 18px;
+
+   }
+
+   img {
+   height: 370px; 
+   width: 650px;
+   transition: 1s;
+
+   }
+}
+}
+
+@media (min-width: 1000px) {
+   
+   .project {
+      transition: 1s;
+      display: grid;
+      justify-content: center;
+      justify-items: end;
+      margin-top: 90px;
+
+   }
+
+}
+
+
      
 `;

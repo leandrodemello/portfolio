@@ -5,17 +5,15 @@ import { ThemeProvider } from 'styled-components';
 import theme from './styles/theme';
 import Global from './styles/global';
 
-import { Projeto01 } from './pages/projetos/projeto-01';
-
 import { Routes } from './routes';
 
-import { DarkMode } from './components/Button';
+import { DarkMode } from './components/DarkMode';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
       <Global />
-      <Projeto01 />
+        <Routes />
       <DarkMode />
     </ThemeProvider>
   </React.StrictMode>

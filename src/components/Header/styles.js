@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
 export const Container = styled.header`
+    min-width: 425px;
+
     grid-area: header;
 
     height: 120px; 
@@ -15,7 +17,8 @@ export const Container = styled.header`
     padding: 15px;
     
     @media (min-width: 770px) {
-       height: 50px; 
+      transition: 1s;
+      height: 50px; 
        
    }
 
@@ -27,6 +30,8 @@ span {
    font-size: 20px;
    color: ${props => props.theme.fontColor};
    font-weight: bold;
+   transition: 1s;
+
          
 }
 
@@ -45,11 +50,23 @@ li {
    color: ${props => props.theme.fontColor};
    list-style: none;
    padding: 2px;
+   transition: 1s;
+
 
  @media (min-width: 770px) {
    max-width: 1900px;
    float: left;
    margin-left: 25px;
+
+   li {
+   transition: 1s;
+   
+   }
+
+   span {
+      transition: 1s;
+
+   }
 
  }
 
