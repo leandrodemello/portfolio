@@ -2,7 +2,12 @@ import { Container } from './styles';
 
 import { FaGithub } from "react-icons/fa";
 import { BsGlobe2 } from "react-icons/bs";
+import { FiArrowLeft} from 'react-icons/fi';
+
 import { Header } from '../../../components/Header';
+
+import { Link } from 'react-router-dom';
+
 
 
 export function Projeto1() {
@@ -13,7 +18,7 @@ export function Projeto1() {
       <div className="page-pt">
          <div className="project">
              <h1>Clone da Netflix</h1>
-             <h2>Um clone de uma das maiores stream do mundo.</h2>
+             <p>Um clone de uma das maiores stream do mundo.</p>
              <img src="troll.gif" alt="projeto 01"/>
              <span>Tech Stack: ReactJS | JavaScript | CSS | HTML</span>
             
@@ -36,8 +41,17 @@ export function Projeto1() {
            </div>
         </div>
 
+        <div className="return">
+        <Link to="/portfolio">
+        <FiArrowLeft />
+          Voltar
+        </Link>
+        </div>
+
 
       </div>
+
+
 
     </Container>
   )
