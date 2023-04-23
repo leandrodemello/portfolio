@@ -77,8 +77,7 @@ form {
   cursor: pointer;
   border: none;
   color: #FFFF;
-  background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(103,106,214,1) 64%, rgba(0,212,255,1) 100%);
+  background: #3b82f6;
 }
 
 .icones {
@@ -90,7 +89,7 @@ form {
   
   .item:hover{
    transition: 0.5s;
-   color: #0f91c2;
+   color: #3b82f6;
   }
   
 }

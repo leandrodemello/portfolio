@@ -57,7 +57,7 @@ main div:nth-child(5) {
 }
 main div:nth-child(6) {
    grid-area: F;
-   background-color: #9aa9af;
+   background-color: #3b82f6;
    height: 270px; //altura vertical do cinza
    width: 300px;  // largura horizontal do cinza
    margin: 0 auto;  //margim horizontal do cinxa
@@ -71,7 +71,7 @@ main::-webkit-scrollbar{
 
 main::-webkit-scrollbar-thumb{
    border-radius: 1.0rem;
-   background-color: #3fa1e8;
+   background-color: #3b82f6;
 }
 
 main {
@@ -288,3 +288,4 @@ a {
    }
 }
 `;
+

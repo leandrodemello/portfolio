@@ -87,7 +87,7 @@ a {
 
 .icone-d:hover{
    transition: 0.5s;
-   color: #0f91c2;
+   color: #3b82f6;
 }
 
 

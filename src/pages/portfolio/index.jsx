@@ -55,7 +55,6 @@ export function Portfolio() {
           </div>        
         
           <div className="card">
-            <img src="190703.jpg" alt="projeto 01"/>
             <h2>PROJETO 06<span><button>HTML</button><button>CSS</button><button>JavaScript</button><button>ReactJs</button></span></h2>
           </div>
         </main>

@@ -1,77 +1,151 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-display: flex;
-flex-direction: column;
-align-items: center;
+   min-width: 425px;
 
-a { 
+
+a {
+
    color: currentColor;
+}
+
+.return {
+   a {
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+      gap: 3px;
+      padding: 10px;
+
+      position: fixed;
+      left: 10px;
+      bottom: 45px;
+
+   }
 }
 
 .project {
    display: flex;
    flex-direction: column;
-   align-items: flex-end;
-   margin-top: 50px;
-
+   align-items: center;
+   margin-top: 30px;
    padding: 20px;
+   transition: 1s;
 
-   p {
+   h1 {
+      font-size: 30px;
+      transition: 1s;
+
+
+   }
+
+   p  {
+      font-size: 18px;
+      text-align: justify;
       margin-top: 10px;
       margin-bottom: 10px;
-      font-size: 18px;
+      transition: 1s;
+
    }
-   
-}
 
-h1 {
-   font-size: 40px;
-}
+   span {
+      font-size: 14px;
+      padding: 10px;
+      transition: 1s;
 
-
-.tech {
-   font-size: 15px;
-   display: flex;
-   justify-content: flex-end;
-   align-items: center;
-   
-   padding: 10px;
-   width: 650px;
-   p {
-      margin-left: 10px;
    }
-   
-}
 
-span {
-   font-size: 20px;
+   img {
+      height: 250px; 
+      width: 350px;
+      transition: 1s;
+
+   }
    
 }
 
 .deploy {
    display: flex;
-   justify-content: flex-end;
-   font-size: 29px;
+   justify-content: center;
+   font-size: 20px;
    padding: 10px;
-   width: 650px;
    color: #79cded;
 }
 
 .icone-d {
    padding: 5px;
-
+   
    p {
-      font-size: 12px;
+      font-size: 8px;
       display: flex;
       flex-direction: column;
       align-items: center;
+      margin-top: 0px;
+
    }
 }
 
 .icone-d:hover{
    transition: 0.5s;
    color: #0f91c2;
+}
+
+
+@media (min-width: 768px) {
+   
+.project {
+      transition: 1s;
+   
+      margin-top: 5px;
+      padding: 5px;
+
+   h1 {
+      font-size: 40px;
+   }
+
+   h2 {
+      font-size: 18px;
+   
+   }
+
+   span {
+      font-size: 18px;
+
+   }
+
+   img {
+      height: 370px; 
+      width: 650px;
+      transition: 1s;
+
+   }
+
+   .deploy {
+      font-size: 29px;
+
+   }
+
+   .icone-d {
+      p {
+        font-size: 12px;
+
+      }
+   }
+
+}
+}
+
+@media (min-width: 1000px) {
+   
+   .project {
+      transition: 1s;
+      display: grid;
+      justify-content: center;
+      justify-items: end;
+      margin-top: 90px;
+
+   }
+
 }
      
 `;

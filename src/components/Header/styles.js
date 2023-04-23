@@ -30,14 +30,14 @@ span {
    font-size: 20px;
    color: ${props => props.theme.fontColor};
    font-weight: bold;
-   transition: 1s;
+   transition: .15s;
 
          
 }
 
 span:hover {
    cursor: pointer;
-   color: #58a1d6;
+   color: #3b82f6;
 }
 
 `;
@@ -50,7 +50,7 @@ li {
    color: ${props => props.theme.fontColor};
    list-style: none;
    padding: 2px;
-   transition: 1s;
+   transition: .15s;
 
 
  @media (min-width: 770px) {
@@ -58,28 +58,21 @@ li {
    float: left;
    margin-left: 25px;
 
-   li {
-   transition: 1s;
-   
-   }
-
-   span {
-      transition: 1s;
-
-   }
-
  }
 
 }
 
 a:target {
-   color: #0f91c2;
+   color: #3b82f6;
+   transition: .15s;
 }
 
 li:hover {
 
+   color: #3b82f6;
    cursor: pointer;
-   color: #7ccae8;
+   transition: .15s;
+
 }
 
 
