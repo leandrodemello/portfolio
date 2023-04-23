@@ -1,6 +1,9 @@
 import { Container } from './styles';
 
 import { Header } from '../../components/Header';
+
+import { FaGithub, FaLinkedin  } from "react-icons/fa";
+
 import { Link } from 'react-router-dom';
 
 
@@ -54,8 +57,22 @@ export function Portfolio() {
             <h2>PROJETO 05<span><button>HTML</button><button>CSS</button><button>JavaScript</button><button>ReactJs</button></span></h2>
           </div>        
         
-          <div className="card">
-            <h2>PROJETO 06<span><button>HTML</button><button>CSS</button><button>JavaScript</button><button>ReactJs</button></span></h2>
+          <div className="card-end">
+              <span>
+                Mais em breve...  
+              </span>
+              <p>
+                Me siga no Github e Linkedin para ficar por dentro!  
+              </p>
+              <div className='icon-port'>
+                <a href="https://github.com/leandrodemello" target="_blank">
+                    <button><FaGithub /> <p> GitHub </p></button>
+                  </a>
+                <a href="https://www.linkedin.com/in/leandro-mello-47a24823b/" target="_blank">
+                    <button><FaLinkedin/> <p>Linkedin</p></button>
+                 </a>
+            </div>
+
           </div>
         </main>
 
@@ -64,3 +81,4 @@ export function Portfolio() {
     </Container>
   )
 }
+

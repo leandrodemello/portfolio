@@ -11,12 +11,12 @@ export const Container = styled.div`
 }
 
 main {
-      grid-template-areas: "A" "B" "C"
+   grid-template-areas: "A" "B" "C"
       "D" "E" "F";
 }
    
 main div:nth-child(1) {
-grid-area: A;
+   grid-area: A;
    background-color: #9aa9af;
    height: 270px; //altura vertical do cinza
    width: 300px;  // largura horizontal do cinza
@@ -57,7 +57,7 @@ main div:nth-child(5) {
 }
 main div:nth-child(6) {
    grid-area: F;
-   background-color: #3b82f6;
+   background-color: #0f172a;
    height: 270px; //altura vertical do cinza
    width: 300px;  // largura horizontal do cinza
    margin: 0 auto;  //margim horizontal do cinxa
@@ -75,7 +75,6 @@ main::-webkit-scrollbar-thumb{
 }
 
 main {
-   //max-width: 
    margin-top: 10px;
    height: 900px; //altura vertical do scrollbar
    display: grid;
@@ -174,6 +173,70 @@ a {
    color: currentColor;
    }
 
+.card-end {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   gap: 0.5rem;
+   padding: 1rem;
+   border-radius: 3px;
+
+   span {
+      font-size: 20px;
+      font-weight: 700;
+      color: #f0f9ff;
+   }
+
+   p {
+      font-size: 15px;
+      text-align: center;
+      color: #94a3b8;
+   }
+
+   .icon-port {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 10px;
+      padding: 10px;
+      height: 50px; //altura vertical do cinza
+      width: 100%;  // largura horizontal do cinza
+      border-radius: 5px;
+      background-color: #0f172a;
+      
+      button {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         font-size: 29px;
+         
+         height: 40px;
+         width: 115px;
+         gap: 10px;
+         
+         color: #f0f9ff;
+         background-color: #3b82f6;
+         border-radius: 5px;
+
+         p {
+            color: #f0f9ff;
+            font-weight: 800;
+
+         }
+         
+      }
+
+      button:hover {
+         transition: .15s;
+         cursor: pointer;
+         background-color: #0a4dba;
+      }
+
+   }
+}
+
 @media (min-width: 768px) {
    .page {
       max-width: 1020px;
@@ -207,7 +270,7 @@ a {
    }
 
    main {
-      height: 360px;
+      height: 365px;  
    }  
 
    main div:nth-child(1) {
@@ -253,7 +316,7 @@ a {
    }
    main div:nth-child(6) {
       grid-area: F;
-      background-color: #9aa9af;
+      background-color: #0f172a;
       height: 340px; //altura vertical do cinza
       width: 435px;  // largura horizontal do cinza
       margin: 0 auto;  //margim horizontal do cinxa
