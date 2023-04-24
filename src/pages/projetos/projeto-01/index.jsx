@@ -42,10 +42,11 @@ export function Projeto1() {
         </div>
 
         <div className="return">
-        <Link to="/portfolio">
-        <FiArrowLeft />
-          Voltar
-        </Link>
+          <Link to="/portfolio">
+
+            <p><FiArrowLeft />Voltar </p>
+
+          </Link>
         </div>
 
 

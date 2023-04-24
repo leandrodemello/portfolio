@@ -10,7 +10,7 @@ a {
 }
 
 .return {
-   a {
+   p {
       font-size: 14px;
       display: flex;
       align-items: center;
@@ -19,7 +19,7 @@ a {
 
       position: fixed;
       left: 10px;
-      bottom: 45px;
+      bottom: 70px;
 
    }
 }
