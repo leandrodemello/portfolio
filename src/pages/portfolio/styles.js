@@ -1,11 +1,14 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  min-width: 425px;
+min-width: 425px;
+
+a { 
+   color: currentColor;
+   }
 
 
 .page {
-   max-width: 425px;
    margin: 0 auto;
 
 }
@@ -66,6 +69,7 @@ main div:nth-child(6) {
 
 main::-webkit-scrollbar{
    width: 0.5rem;
+   border: 3px;
    background-color: #687b82;
 }
 
@@ -169,9 +173,7 @@ img {
    height: auto;
 }
 
-a { 
-   color: currentColor;
-   }
+
 
 .card-end {
    display: flex;
@@ -210,9 +212,9 @@ a {
          display: flex;
          justify-content: center;
          align-items: center;
-         font-size: 29px;
+         font-size: 25px;
          
-         height: 40px;
+         height: 30px;
          width: 115px;
          gap: 10px;
          
@@ -235,6 +237,8 @@ a {
       }
 
    }
+
+
 }
 
 @media (min-width: 768px) {
@@ -351,4 +355,9 @@ a {
    }
 }
 `;
+
+
+
+
+
 

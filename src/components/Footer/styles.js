@@ -6,7 +6,7 @@ export const Container = styled.footer`
     display: grid;
     justify-content: end;
     justify-items: center;
-    font-size: 29px;
+    font-size: 25px;
 
     color: ${props => props.theme.fontColor};
 
@@ -17,5 +17,6 @@ export const Container = styled.footer`
     bottom: 0;
     padding: 10px;
     position: fixed;
+    z-index: 1;
 
 `;

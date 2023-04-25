@@ -1,6 +1,7 @@
 import { Container } from './styles';
 
 import { Header } from '../../components/Header';
+import { Foooter } from '../../components/Foooter';
 
 import { FaGithub, FaLinkedin  } from "react-icons/fa";
 
@@ -77,6 +78,9 @@ export function Portfolio() {
         </main>
 
       </div>
+
+      <Foooter />
+
 
     </Container>
   )
