@@ -30,25 +30,25 @@ export function Portfolio() {
 
           <div className="card">
               <Link to="/projeto2"> 
-                <img src="190703.jpg" alt="projeto 01"/>
+                <img src="190703.jpg" alt="projeto 02"/>
                </Link>
             <h2>PROJETO 02<span><button>HTML</button><button>CSS</button><button>JavaScript</button><button>ReactJs</button></span></h2>
           </div>        
         
           <div className="card">
               <Link to="/projeto3"> 
-                 <img src="190703.jpg" alt="projeto 01"/>
+                 <img src="190703.jpg" alt="projeto 03"/>
               </Link>
             <h2>PROJETO 03<span><button>HTML</button><button>CSS</button><button>JavaScript</button><button>ReactJs</button></span></h2>
           </div>        
         
           <div className="card">
               <Link to="/projeto4"> 
-                <img src="190703.jpg" alt="projeto 01"/>
+                <img src="190703.jpg" alt="projeto 04"/>
               </Link>
 
             <h2>PROJETO 03
-              <p>Esse projeto permite a integração de todas as ....</p>
+              <p>Esse projet</p>
               <span><button>HTML</button><button>CSS</button><button>JavaScript</button></span></h2>
           </div>        
         
