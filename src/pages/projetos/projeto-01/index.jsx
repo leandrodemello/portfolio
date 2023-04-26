@@ -8,8 +8,6 @@ import { Header } from '../../../components/Header';
 
 import { Link } from 'react-router-dom';
 
-
-
 export function Projeto1() {
   
   return (
@@ -49,10 +47,7 @@ export function Projeto1() {
           </Link>
         </div>
 
-
       </div>
-
-
 
     </Container>
   )

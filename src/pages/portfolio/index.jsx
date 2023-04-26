@@ -47,15 +47,20 @@ export function Portfolio() {
                 <img src="190703.jpg" alt="projeto 01"/>
               </Link>
 
-            <h2>PROJETO 04<span><button>HTML</button><button>CSS</button><button>JavaScript</button><button>ReactJs</button></span></h2>
+            <h2>PROJETO 03
+              <p>Esse projeto permite a integração de todas as ....</p>
+              <span><button>HTML</button><button>CSS</button><button>JavaScript</button></span></h2>
           </div>        
         
           <div className="card">
              <Link to="/projeto5"> 
-                 <img src="190703.jpg" alt="projeto 01"/>
+                 <img src="190136.jpg" alt="projeto 05"/>
              </Link>
 
-            <h2>PROJETO 05<span><button>HTML</button><button>CSS</button><button>JavaScript</button><button>ReactJs</button></span></h2>
+            <h2>Social Link
+              <p>Esse projeto permite a integração de todas....</p>
+
+              <span><button>HTML</button><button>CSS</button><button>JavaScript</button></span></h2>
           </div>        
         
           <div className="card-end">

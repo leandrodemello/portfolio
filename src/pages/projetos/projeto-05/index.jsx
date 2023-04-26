@@ -8,8 +8,6 @@ import { Header } from '../../../components/Header';
 
 import { Link } from 'react-router-dom';
 
-
-
 export function Projeto5() {
   
   return (
@@ -17,14 +15,16 @@ export function Projeto5() {
       <Header />
       <div className="page-pt">
          <div className="project">
-             <h1>Clone da Netflix</h1>
-             <p>Um clone de uma das maiores stream do mundo.</p>
-             <img src="troll.gif" alt="projeto 01"/>
-             <span>Tech Stack: ReactJS | JavaScript | CSS | HTML</span>
+             <h1>Social Link</h1>
+             <p>Esse projeto foi desenvolvido durante a Maratona Explorer 2.0 da Rocketseat, 
+              ele permite a integração de todas as redes sociais em um único local. <br></br>
+              Modo noturno, com o recurso o monitor ou tablet exibe cores quentes, que não agridem os olhos. </p>
+             <img src="link-unico.gif" alt="projeto-5"/>
+             <span>Tech Stack: HTML | CSS | JavaScript</span>
             
             <div className='deploy'>
             <div className='icone-d'>
-                <a href="https://github.com/leandrodemello" target="_blank">
+                <a href="https://github.com/leandrodemello/link-unico-leandro" target="_blank">
                     <FaGithub 
                      />
                   </a>
@@ -32,7 +32,7 @@ export function Projeto5() {
             </div>
 
             <div className='icone-d'>
-                <a href="https://www.linkedin.com/in/leandro-mello-47a24823b/" target="_blank">
+                <a href="https://leandrodemello.github.io/link-unico-leandro/" target="_blank">
                     <BsGlobe2
                     />
                  </a>
@@ -42,16 +42,14 @@ export function Projeto5() {
         </div>
 
         <div className="return">
-        <Link to="/portfolio">
-        <FiArrowLeft />
-          Voltar
-        </Link>
+          <Link to="/portfolio">
+
+            <p><FiArrowLeft />Voltar </p>
+
+          </Link>
         </div>
 
-
       </div>
-
-
 
     </Container>
   )
