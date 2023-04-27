@@ -20,7 +20,7 @@ export function Portfolio() {
         <main>
           <div className="card">
                 <Link to="/projeto1"> 
-                  <img src="troll.gif" alt="projeto 01"/>
+                  <img src="" alt="projeto 01"/>
                 </Link>
             <h2>Clone da Netflix
               <p>Um clone de uma das maiores stream do mundo....</p>
@@ -44,11 +44,11 @@ export function Portfolio() {
         
           <div className="card">
               <Link to="/projeto4"> 
-                <img src="190703.jpg" alt="projeto 04"/>
+                <img src="090258.jpg" alt="projeto 04"/>
               </Link>
 
-            <h2>PROJETO 03
-              <p>Esse projet</p>
+            <h2>Focus Timer Pomodoro
+              <p>Esse é o Focus Timer Pomodoro, um ...</p>
               <span><button>HTML</button><button>CSS</button><button>JavaScript</button></span></h2>
           </div>        
         
