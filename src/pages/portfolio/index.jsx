@@ -37,9 +37,11 @@ export function Portfolio() {
         
           <div className="card">
               <Link to="/projeto3"> 
-                 <img src="190703.jpg" alt="projeto 03"/>
+                 <img src="190428.jpg" alt="projeto 03"/>
               </Link>
-            <h2>PROJETO 03<span><button>HTML</button><button>CSS</button><button>JavaScript</button><button>ReactJs</button></span></h2>
+            <h2>Food Explorer
+              <p>Um menu interativo para um restaurante ...</p>
+              <span><button>HTML</button><button>CSS</button><button>JavaScript</button><button>ReactJs</button></span></h2>
           </div>        
         
           <div className="card">

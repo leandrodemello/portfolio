@@ -15,13 +15,13 @@ a {
    transition: 1s;
 
    > h1 {
-      font-size: 30px;
+      font-size: 28px;
       transition: 1s;
 
    }
 
    > p  {
-      font-size: 18px;
+      font-size: 16px;
       text-align: justify;
       margin-top: 10px;
       margin-bottom: 10px;
@@ -81,6 +81,8 @@ a {
       padding-left: 20px;
       left: 10px;
       bottom: 70px;
+      //position: fixed;
+      //z-index: 1;
 
    }
 }

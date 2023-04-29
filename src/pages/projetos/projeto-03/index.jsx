@@ -15,14 +15,17 @@ export function Projeto3() {
       <Header />
       <div className="page-pt">
          <div className="project">
-             <h1>Clone da Netflix</h1>
-             <p>Um clone de uma das maiores stream do mundo.</p>
-             <img src="troll.gif" alt="projeto 01"/>
-             <span>Tech Stack: ReactJS | JavaScript | CSS | HTML</span>
+             <h1>Food Explorer</h1>
+             <p>
+             O último projeto desenvolvido no curso explorer da Rocketseat, um site fictício de um restaurante onde o usuário pode montar seu pedido com vários produtos, 
+             realizar o pagamento e acompanhar o status do pedido que é atualizado por um usuário administrador, 
+             que além de atualizar o pedido também pode cadastrar um novo prato, atualizar e excluir qualquer prato.</p>
+             <img src="food-explorer.gif" alt="projeto 03"/>
+             <span>Tech Stack: NodeJS | ReactJS | JavaScript | CSS | HTML</span>
             
             <div className='deploy'>
             <div className='icone-d'>
-                <a href="https://github.com/leandrodemello" target="_blank">
+                <a href="https://github.com/leandrodemello/food-explorer-end" target="_blank">
                     <FaGithub 
                      />
                   </a>
@@ -30,7 +33,7 @@ export function Projeto3() {
             </div>
 
             <div className='icone-d'>
-                <a href="https://www.linkedin.com/in/leandro-mello-47a24823b/" target="_blank">
+                <a href="https://food-explorer-end.netlify.app/" target="_blank">
                     <BsGlobe2
                     />
                  </a>

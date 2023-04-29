@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Footer } from './components/Footer';
+import { Footer } from './components/DarkTheme';
 import { GlobalStyle } from './styles/global';
 import { ThemeProvider } from 'styled-components';
 
