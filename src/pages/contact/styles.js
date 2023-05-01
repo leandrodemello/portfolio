@@ -5,16 +5,15 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  
- a { 
-  color: currentColor;
-}
 
 h1 {
   font-size: 50px;
-  font-family: monospace;
   margin-top: 50px;
   margin-bottom: 10px;
+
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: #03FA6E;
   
 }
 
@@ -42,7 +41,7 @@ form {
   border: none;
   border-radius: 3px;
   margin-bottom: 10px;
-  background-color: #d4e3ee;
+  background-color: #bfe0ce;
   transition: 0.5s;
   
   
@@ -54,30 +53,29 @@ form {
   padding: 10px;
   border: none;
   border-radius: 3px;
-  background-color: #d4e3ee;
+  background-color: #bfe0ce;
   transition: 0.5s;
 }
 
 .button {
-  
+  font-size: 14px;
   font-weight: 700;
-  height: 40px;
+  height: 30px;
   width: 250px;
-  margin-top: 10px;
-
+  margin-top: 20px;
   border-radius: 3px;
-  border: 2px;
+  border: 1px;
   border-style: solid;
-  border-color: #d4e3ee;
-  transition: 0.5s;
-  
+  border-color: #03FA6E;
+  transition: .15s;
+     
 }
-
+   
 .button:hover {
-  cursor: pointer;
+  background: #03FA6E;
   border: none;
-  color: #FFFF;
-  background: #3b82f6;
+  cursor: pointer;
+  transition: .15s;
 }
 
 .icones {
@@ -85,11 +83,13 @@ form {
   font-size: 29px;
   gap: 3px;
   margin-top: 20px;
-  color: #79cded;
+  color: #FFFF;
+
+
   
   .item:hover{
    transition: 0.5s;
-   color: #3b82f6;
+   color: #03FA6E;
   }
   
 }

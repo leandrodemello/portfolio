@@ -5,7 +5,15 @@ export function Foooter () {
    return (
       <Container>
          <footer>
-            <p>Esse portfólio foi feito com</p> <span><FaReact/></span>
+            <p>Esse portfólio foi feito com</p> 
+
+            <span>
+               <a href="https://react.dev/" title="ReactJS" target="_blank">
+                 <FaReact/>
+               </a>
+            </span>
+
+            
          </footer>
       </Container>
    )

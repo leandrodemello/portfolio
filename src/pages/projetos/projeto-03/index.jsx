@@ -20,8 +20,8 @@ export function Projeto3() {
              O último projeto desenvolvido no curso explorer da Rocketseat, um site fictício de um restaurante onde o usuário pode montar seu pedido com vários produtos, 
              realizar o pagamento e acompanhar o status do pedido que é atualizado por um usuário administrador, 
              que além de atualizar o pedido também pode cadastrar um novo prato, atualizar e excluir qualquer prato.</p>
-             <img src="food-explorer.gif" alt="projeto 03"/>
-             <span>Tech Stack: NodeJS | ReactJS | JavaScript | CSS | HTML</span>
+             <img src="food-exp.gif" alt="projeto 03"/>
+             <span>Tech Stack: NodeJS | SQlite | ReactJS | Styled-Components </span>
             
             <div className='deploy'>
             <div className='icone-d'>

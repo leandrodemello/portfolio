@@ -1,6 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 
-export const GlobalStyle = createGlobalStyle`
+export default createGlobalStyle`
  * {
    margin: 0;
    padding: 0;
@@ -13,7 +13,8 @@ export const GlobalStyle = createGlobalStyle`
  }
 
  body {
-  background-color:  ${props => props.theme.body};
+  color: #FFFF;
+  background-color: #262628;
 
  }
 
@@ -22,35 +23,14 @@ export const GlobalStyle = createGlobalStyle`
 
  } 
 
- a {
-   text-decoration: none;
-   color: ${props => props.theme.fontColor};
- }
-
- h1 {
-  color: ${props => props.theme.fontColor};
- }
-
- p {
-  color: ${props => props.theme.fontColor};
+button, a {
+  cursor: pointer;
+  text-decoration: none;
 
  }
 
- span {
-  color: ${props => props.theme.fontColor};
-
+ a { 
+   color: currentColor;
  }
-
- li {
-  color: ${props => props.theme.fontColor};
-
- }
-
- button, a {
-   border: none;
-   cursor: pointer;
-
- }
-
   
 `;

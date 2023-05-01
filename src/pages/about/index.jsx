@@ -22,7 +22,7 @@ export function About() {
 
           <div className='container'>
             <div className='item'>
-                <a href="https://github.com/leandrodemello" target="_blank">
+                <a href="https://github.com/leandrodemello" title="GitHub" target="_blank">
                     <FaGithub 
                      />
                   </a>
@@ -30,14 +30,14 @@ export function About() {
             
 
             <div className='item'>
-                <a href="https://www.linkedin.com/in/leandro-mello-47a24823b/" target="_blank">
+                <a href="https://www.linkedin.com/in/leandro-mello-47a24823b/" title="Linkedin" target="_blank">
                     <FaLinkedin
                     />
                  </a>
             </div>
 
             <div className='item'>
-                <a href="http://www.google.com" target="_blank">
+                <a href="http://www.google.com" title="Curriculo" target="_blank">
                     <BsFileEarmarkArrowDownFill
                     />
                 </a>

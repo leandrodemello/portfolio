@@ -19,7 +19,7 @@ export function Projeto5() {
              <p>Esse projeto foi desenvolvido durante a Maratona Explorer 2.0 da Rocketseat, 
               ele permite a integração de todas as redes sociais em um único local. <br></br>
               Modo noturno, com o recurso o monitor ou tablet exibe cores quentes, que não agridem os olhos. </p>
-             <img src="link-unico.gif" alt="projeto-5"/>
+             <img src="link.gif" alt="projeto-5"/>
              <span>Tech Stack: HTML | CSS | JavaScript</span>
             
             <div className='deploy'>

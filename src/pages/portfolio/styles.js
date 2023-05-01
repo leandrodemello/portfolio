@@ -3,79 +3,20 @@ import styled from "styled-components";
 export const Container = styled.div`
 min-width: 425px;
 
-a { 
-   color: currentColor;
-   }
-
-
 .page {
    margin: 0 auto;
-
 }
 
-main {
-   grid-template-areas: "A" "B" "C"
-      "D" "E" "F";
-}
-   
-main div:nth-child(1) {
-   grid-area: A;
-   background-color: #9aa9af;
-   height: 270px; //altura vertical do cinza
-   width: 300px;  // largura horizontal do cinza
-   margin: 0 auto;  //margim horizontal do cinxa
-   
-}
-main div:nth-child(2) {
-   grid-area: B;
-   background-color: #9aa9af;   
-   height: 270px; //altura vertical do cinza
-   width: 300px;  // largura horizontal do cinza
-   margin: 0 auto;  //margim horizontal do cinxa
-   
-}
-main div:nth-child(3) {
-   grid-area: C;
-   background-color: #9aa9af;
-   height: 270px; //altura vertical do cinza
-   width: 300px;  // largura horizontal do cinza
-   margin: 0 auto;  //margim horizontal do cinxa
+h1 {
+   font-size: 4.0rem;
+   margin-top: 5.0rem;   //pc 10.0rem
+   margin-bottom: 3.0rem;
 
-}
-main div:nth-child(4) {
-   grid-area: D;
-   background-color: #9aa9af;
-   height: 270px; //altura vertical do cinza
-   width: 300px;  // largura horizontal do cinza
-   margin: 0 auto;  //margim horizontal do cinxa
+   text-align: center;
 
-}
-main div:nth-child(5) {
-   grid-area: E;
-   background-color: #9aa9af;
-   height: 270px; //altura vertical do cinza
-   width: 300px;  // largura horizontal do cinza
-   margin: 0 auto;  //margim horizontal do cinxa
+   line-height: 6.0rem;
+   letter-spacing: 1px;
 
-}
-main div:nth-child(6) {
-   grid-area: F;
-   background-color: #0f172a;
-   height: 270px; //altura vertical do cinza
-   width: 300px;  // largura horizontal do cinza
-   margin: 0 auto;  //margim horizontal do cinxa
-
-}
-
-main::-webkit-scrollbar{
-   width: 0.5rem;
-   border: 3px;
-   background-color: #687b82;
-}
-
-main::-webkit-scrollbar-thumb{
-   border-radius: 1.0rem;
-   background-color: #3b82f6;
 }
 
 main {
@@ -88,59 +29,112 @@ main {
 
 }
 
-h1 {
-   font-size: 4.0rem;
-   color: ${props => props.theme.fontColor};
-   margin-top: 5.0rem;   //pc 10.0rem
-   margin-bottom: 3.0rem;
+main {
+   grid-template-areas: "A" "B" "C"
+      "D" "E" "F";
+}
+   
+main div:nth-child(1) {
+   grid-area: A;
+   background-color: #bfe0ce;
+   height: 240px; //altura vertical do cinza
+   width: 300px;  // largura horizontal do cinza
+   margin: 0 auto;  //margim horizontal do cinxa
+   
+}
+main div:nth-child(2) {
+   grid-area: B;
+   background-color: #bfe0ce;   
+   height: 240px; //altura vertical do cinza
+   width: 300px;  // largura horizontal do cinza
+   margin: 0 auto;  //margim horizontal do cinxa
+   
+}
+main div:nth-child(3) {
+   grid-area: C;
+   background-color: #bfe0ce;
+   height: 240px; //altura vertical do cinza
+   width: 300px;  // largura horizontal do cinza
+   margin: 0 auto;  //margim horizontal do cinxa
 
-   text-align: center;
+}
+main div:nth-child(4) {
+   grid-area: D;
+   background-color: #bfe0ce;
+   height: 240px; //altura vertical do cinza
+   width: 300px;  // largura horizontal do cinza
+   margin: 0 auto;  //margim horizontal do cinxa
 
-   line-height: 6.0rem;
-   letter-spacing: 1px;
+}
+main div:nth-child(5) {
+   grid-area: E;
+   background-color: #bfe0ce;
+   height: 240px; //altura vertical do cinza
+   width: 300px;  // largura horizontal do cinza
+   margin: 0 auto;  //margim horizontal do cinxa
+
+}
+main div:nth-child(6) {
+   grid-area: F;
+   background-color: #bfe0ce;
+   height: 240px; //altura vertical do cinza
+   width: 300px;  // largura horizontal do cinza
+   margin: 0 auto;  //margim horizontal do cinxa
+   
+}
+
+main::-webkit-scrollbar{
+   width: 0.5rem;
+   border: 3px;
+   background-color: #d1cdcd;
+}
+
+main::-webkit-scrollbar-thumb{
+   border-radius: 1.0rem;
+   background-color: #03FA6E;
 }
 
 .card {
    position: relative;
    border-radius: 3px;
    height: 360px;
+   
 }
 
 .card img {
-   height: 15.0rem;  // altura vertical da imagem 23.0rem  pc 
+   margin: 12px 20px 0 20px; 
+   height: 13.0rem;  // altura vertical da imagem 23.0rem  pc 
    width: 25.0rem;   // largura horizontal da imagem 38.rem  pc
    object-fit: cover;
-
-   border-radius: 3px;
-
-   transition: transform 200ms;
-
-   margin: 12px 20px 0 20px; 
    
+   border-radius: 3px;
+   
+   transition: transform 200ms;
    opacity: 0.7;
 }
 
 .card img:hover {
    transform: scale(1.1);
    opacity: 1;
-
+   
 }
 
 .card h2 {
-   position: absolute;
+   display: flex;
+   flex-direction: column; 
+   
+   text-align: end;
+   font-size: 18px;
+   font-weight: 800;
+
+   color: #3c3d3d;
    width: 100%;
 
-   font-size: 18px;
-   font-weight: 400;
-
+   
    padding-right: 2.0rem;
    padding-left: 2.0rem;
-
-   display: flex;
-   flex-direction: column;
-   text-align: end;
-
-   color: ${props => props.theme.fontColor};
+   
+   position: absolute;
 }
 
 .card p {
@@ -160,20 +154,12 @@ h1 {
    font-size: 12px;
    border-radius: 7px;
    background-color: #ffff;
-   color: black;
    height: 2.6rem;
    padding: 0 1.0rem;
    
    border: none;
    
 }
-
-img {
-   width: 100%;
-   height: auto;
-}
-
-
 
 .card-end {
    display: flex;
@@ -183,17 +169,18 @@ img {
    gap: 0.5rem;
    padding: 1rem;
    border-radius: 3px;
+   font-weight: 800;
 
-   span {
+   color: #3c3d3d;
+
+   > span {
       font-size: 20px;
       font-weight: 700;
-      color: #f0f9ff;
    }
 
-   p {
+   > p {
       font-size: 15px;
       text-align: center;
-      color: #94a3b8;
    }
 
    .icon-port {
@@ -201,29 +188,26 @@ img {
       align-items: center;
       justify-content: center;
       gap: 10px;
-      padding: 10px;
-      padding: 10px;
       height: 50px; //altura vertical do cinza
       width: 100%;  // largura horizontal do cinza
-      border-radius: 5px;
-      background-color: #0f172a;
       
       button {
          display: flex;
          justify-content: center;
          align-items: center;
-         font-size: 25px;
-         
-         height: 30px;
+
+         font-size: 19px;
+         gap: 5px;
          width: 115px;
-         gap: 10px;
+         height: 30px;
          
          color: #f0f9ff;
          background-color: #3b82f6;
+
+         border: none;
          border-radius: 5px;
 
          p {
-            color: #f0f9ff;
             font-weight: 800;
 
          }
@@ -231,9 +215,9 @@ img {
       }
 
       button:hover {
-         transition: .15s;
          cursor: pointer;
-         background-color: #0a4dba;
+         background-color: #316ac5;
+         transition: 0.5s;
       }
 
    }
@@ -279,56 +263,44 @@ img {
 
    main div:nth-child(1) {
       grid-area: A;
-      background-color: #9aa9af;
-      height: 340px; //altura vertical do cinza
+      height: 300px; //altura vertical do cinza
       width: 435px;  // largura horizontal do cinza
-      margin: 0 auto;  //margim horizontal do cinxa
       
    }
    main div:nth-child(2) {
       grid-area: B;
-      background-color: #9aa9af;   
-      height: 340px; //altura vertical do cinza
+      height: 300px; //altura vertical do cinza
       width: 435px;  // largura horizontal do cinza
-      margin: 0 auto;  //margim horizontal do cinxa
    
       
    }
    main div:nth-child(3) {
       grid-area: C;
-      background-color: #9aa9af;
-      height: 340px; //altura vertical do cinza
+      height: 300px; //altura vertical do cinza
       width: 435px;  // largura horizontal do cinza
-      margin: 0 auto;  //margim horizontal do cinxa
    
    }
    main div:nth-child(4) {
       grid-area: D;
-      background-color: #9aa9af;
-      height: 340px; //altura vertical do cinza
+      height: 300px; //altura vertical do cinza
       width: 435px;  // largura horizontal do cinza
-      margin: 0 auto;  //margim horizontal do cinxa
    
    }
    main div:nth-child(5) {
       grid-area: E;
-      background-color: #9aa9af;
-      height: 340px; //altura vertical do cinza
+      height: 300px; //altura vertical do cinza
       width: 435px;  // largura horizontal do cinza
-      margin: 0 auto;  //margim horizontal do cinxa
    
    }
    main div:nth-child(6) {
       grid-area: F;
-      background-color: #0f172a;
-      height: 340px; //altura vertical do cinza
+      height: 300px; //altura vertical do cinza
       width: 435px;  // largura horizontal do cinza
-      margin: 0 auto;  //margim horizontal do cinxa
    
    }
 
    .card img {
-      height: 23.0rem;  // altura vertical da imagem 23.0rem  pc 
+      height: 20.0rem;  // altura vertical da imagem 23.0rem  pc 
       width: 38.0rem;   // largura horizontal da imagem 38.rem  pc
    
    }
@@ -336,7 +308,6 @@ img {
    .card h2 {
    font-size: 20px;
    width: 100%;
-   //background-color: #3fa1e8;
    }
 
    .card p {

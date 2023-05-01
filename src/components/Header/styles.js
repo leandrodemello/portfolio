@@ -8,8 +8,6 @@ export const Container = styled.header`
     height: 120px; 
     width: 100%; 
     
-    background-color:  ${props => props.theme.body};
-    
     display: flex; 
     justify-content: space-between;
     align-items: center;
@@ -26,18 +24,12 @@ export const Container = styled.header`
 
 export const Profile = styled.div`
 
-span {
-   font-size: 20px;
-   color: ${props => props.theme.fontColor};
-   font-weight: bold;
+img {
+   margin-top: 100px;
+   width: 140px;
+   height: 150px;
    transition: .15s;
-
          
-}
-
-span:hover {
-   cursor: pointer;
-   color: #3b82f6;
 }
 
 `;
@@ -47,11 +39,9 @@ export const Navega = styled.div`
 li {
    font-size: 19px;
    font-weight: bold;
-   color: ${props => props.theme.fontColor};
    list-style: none;
    padding: 2px;
    transition: .15s;
-
 
  @media (min-width: 770px) {
    max-width: 1900px;
@@ -69,7 +59,7 @@ a:target {
 
 li:hover {
 
-   color: #3b82f6;
+   color: #03FA6E;
    cursor: pointer;
    transition: .15s;
 

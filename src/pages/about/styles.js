@@ -11,16 +11,13 @@ margin: 0 auto;
 
 h1 {
    font-size: 27px;
-   color: ${props => props.theme.fontColor};
    line-height: 60px;
    text-align: right;
-
 
  }
 
  p {
    font-size: 23px;
-   color: ${props => props.theme.fontColor};
    line-height: 30px;
    text-align: justify;
 
@@ -36,16 +33,18 @@ h1 {
  .item {
       font-size: 29px;
       margin: 5px;
-      color: #79cded;
+      color: #FFFF;
+
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-color: #03FA6E;
    }
 
- a { 
-   color: currentColor;
- }
+
 
  .item:hover{
    transition: 0.5s;
-   color: #3b82f6;
+   color: #03FA6E;
  }
 
  @media (min-width: 768px) {

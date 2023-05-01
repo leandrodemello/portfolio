@@ -7,7 +7,8 @@ export function Header(){
     <Container>
       <Profile>
         <div className="nome">
-          <span>Leandro Mello</span>
+        <img src="on.png" alt="logo"/>
+
         </div>
       </Profile>
 

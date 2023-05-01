@@ -15,17 +15,17 @@ export function Projeto4() {
       <Header />
       <div className="page-pt">
          <div className="project">
-             <h1>Focus Timer Pomodoro</h1>
-             <p>Esse é o Focus Timer Pomodoro, um cronômetro feito para te ajudar nos estudos 
-              usando a técnica Pomodoro. 
-              Com esse projeto foi possível manipular o navegador utilizando a DOM, funções calbacks, 
-              recursividade, Crean Code, ES6 Modules, injeção de dependências e muito mais...</p>
-             <img src="focus-time.gif" alt="projeto 04"/>
-             <span>Tech Stack: JavaScript | CSS | HTML</span>
+             <h1>Portfolio Explorer</h1>
+             <p>Uma SPA que desenvolvi para documentar 
+              meu progresso como Desenvolvedor Web, ao longo de meus estudos no programa 
+              'Explorer' da Rocketseat. Usei o conceito do Linktree como minha inspiração 
+              para construir este site.</p>
+             <img src="exp-celde.gif" alt="projeto 04"/>
+             <span>Tech Stack: ReactJS | JavaScript | CSS | HTML</span>
             
             <div className='deploy'>
             <div className='icone-d'>
-                <a href="https://github.com/leandrodemello/timer-pomodoro" target="_blank">
+                <a href="https://github.com/leandrodemello/explorer-projects" target="_blank">
                     <FaGithub 
                      />
                   </a>
@@ -33,7 +33,7 @@ export function Projeto4() {
             </div>
 
             <div className='icone-d'>
-                <a href="https://timerpomodoro2023.netlify.app/" target="_blank">
+                <a href="https://desafios-explorer.netlify.app/" target="_blank">
                     <BsGlobe2
                     />
                  </a>

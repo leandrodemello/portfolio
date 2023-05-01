@@ -14,11 +14,11 @@ export function Portfolio() {
     <Container>
       <Header/>
       <div className="page">
-      
-        <h1>Meus projetos</h1>
+
+        <h1 className='my-project'>Meus Projetos</h1>
 
         <main>
-          <div className="card">
+          {/* <div className="card">
                 <Link to="/projeto1"> 
                   <img src="" alt="projeto 01"/>
                 </Link>
@@ -34,7 +34,7 @@ export function Portfolio() {
                </Link>
             <h2>PROJETO 02<span><button>HTML</button><button>CSS</button><button>JavaScript</button><button>ReactJs</button></span></h2>
           </div>        
-        
+        */}
           <div className="card">
               <Link to="/projeto3"> 
                  <img src="190428.jpg" alt="projeto 03"/>
@@ -46,11 +46,11 @@ export function Portfolio() {
         
           <div className="card">
               <Link to="/projeto4"> 
-                <img src="090258.jpg" alt="projeto 04"/>
+                <img src="204607.jpg" alt="projeto 04"/>
               </Link>
 
-            <h2>Focus Timer Pomodoro
-              <p>Esse é o Focus Timer Pomodoro, um ...</p>
+            <h2>Portfolio Explorer
+              <p>Uma SPA com ReactJS que foi desenvolvida...</p>
               <span><button>HTML</button><button>CSS</button><button>JavaScript</button></span></h2>
           </div>        
         
