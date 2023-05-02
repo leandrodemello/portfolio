@@ -14,7 +14,7 @@ export function About() {
       <Header/>
         
         <div className="about">
-          <h1>Me chamo Leandro</h1>
+          <h1>Me chamo Leandro Mello</h1>
             <p>Sou um Desenvolvedor Web Front-End apaixonado pelo que faço,
             e desde que comecei tenho estado em constante aprendizado, sempre me colocando a 
             disposição para aprender uma nova tecnologia ou ferramenta, porque acredito que na 
