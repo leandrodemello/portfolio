@@ -25,7 +25,6 @@ export const Container = styled.header`
 export const Profile = styled.div`
 
 img {
-   margin-top: 100px;
    width: 140px;
    height: 150px;
    transition: .15s;

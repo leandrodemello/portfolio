@@ -8,8 +8,8 @@ export const Container = styled.div`
 
    img {
 
-      width: 300px;
-      height: 350px;
+      width: 340px;
+      height: 310px;
   }
   
   h1 {

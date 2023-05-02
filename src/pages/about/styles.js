@@ -64,7 +64,8 @@ h1 {
    align-items: center;
 
   .about {
-  width: 864px;
+    width: 864px;
+    margin-top: 100px;
       
    }
 

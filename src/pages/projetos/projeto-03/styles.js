@@ -3,10 +3,6 @@ import styled from 'styled-components';
 export const Container = styled.div`
    min-width: 425px;
 
-a {
-   color: currentColor;
-}
-
 .project {
    display: flex;
    flex-direction: column;
@@ -49,9 +45,8 @@ a {
 .deploy {
    display: flex;
    justify-content: center;
-   font-size: 20px;
+   font-size: 25px;
    padding: 10px;
-   color: #79cded;
 
 }
 
@@ -69,22 +64,26 @@ a {
 
 .icone-d:hover{
    transition: 0.5s;
-   color: #3b82f6;
+   color: #03FA6E;
 }
 
 .return {
+   
    p {
-      font-size: 14px;
       display: flex;
       align-items: center;
+      font-size: 15px;
+      font-weight: 800;
       gap: 3px;
       padding-left: 20px;
-      left: 10px;
-      bottom: 70px;
-      //position: fixed;
-      //z-index: 1;
 
    }
+   
+}
+
+.return:hover {
+   color: #03FA6E;
+
 }
 
 @media (min-width: 768px) {

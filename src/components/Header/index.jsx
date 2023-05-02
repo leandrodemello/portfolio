@@ -7,7 +7,8 @@ export function Header(){
     <Container>
       <Profile>
         <div className="nome">
-        <img src="on.png" alt="logo"/>
+        <img src="logo.png" alt="logo"/>
+
 
         </div>
       </Profile>

@@ -98,7 +98,7 @@ form {
 transition: 0.5s;
 
 h1 {
-  margin-top: 150px;
+  margin-top: 100px;
 }
 .input {
   width: 400px;

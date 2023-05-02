@@ -263,38 +263,38 @@ main::-webkit-scrollbar-thumb{
 
    main div:nth-child(1) {
       grid-area: A;
-      height: 300px; //altura vertical do cinza
+      height: 310px; //altura vertical do cinza
       width: 435px;  // largura horizontal do cinza
       
    }
    main div:nth-child(2) {
       grid-area: B;
-      height: 300px; //altura vertical do cinza
+      height: 310px; //altura vertical do cinza
       width: 435px;  // largura horizontal do cinza
    
       
    }
    main div:nth-child(3) {
       grid-area: C;
-      height: 300px; //altura vertical do cinza
+      height: 310px; //altura vertical do cinza
       width: 435px;  // largura horizontal do cinza
    
    }
    main div:nth-child(4) {
       grid-area: D;
-      height: 300px; //altura vertical do cinza
+      height: 310px; //altura vertical do cinza
       width: 435px;  // largura horizontal do cinza
    
    }
    main div:nth-child(5) {
       grid-area: E;
-      height: 300px; //altura vertical do cinza
+      height: 310px; //altura vertical do cinza
       width: 435px;  // largura horizontal do cinza
    
    }
    main div:nth-child(6) {
       grid-area: F;
-      height: 300px; //altura vertical do cinza
+      height: 310px; //altura vertical do cinza
       width: 435px;  // largura horizontal do cinza
    
    }
