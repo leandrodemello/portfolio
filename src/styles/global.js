@@ -14,10 +14,10 @@ export default createGlobalStyle`
 
  body {
   color: #FFFF;
-  background-color: #262628;
-  //background: url("src/asset/online-storecv.png") no-repeat fixed;
+  //background-color: #262628;
+  background: url("src/asset/online-storecv.png") no-repeat fixed;
   //background: url("public/online storecc.png") no-repeat fixed;
-  //background-size: cover;
+  background-size: cover;
   
 
 
