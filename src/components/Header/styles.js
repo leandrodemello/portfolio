@@ -51,11 +51,6 @@ li {
 
 }
 
-a:target {
-   color: #3b82f6;
-   transition: .15s;
-}
-
 li:hover {
 
    color: #03FA6E;

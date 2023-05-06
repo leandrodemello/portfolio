@@ -31,7 +31,7 @@ form {
   justify-content: center;
   align-items: center;
   justify-content: flex-start;
-  
+
 }
 
 .input {
@@ -82,7 +82,7 @@ form {
   display: flex; 
   font-size: 29px;
   gap: 3px;
-  margin-top: 20px;
+  margin-top: 10px;
   color: #FFFF;
 
 
@@ -113,7 +113,7 @@ h1 {
 }
 
 .icones {
-  margin-top: 60px;
+  margin-top: 20px;
 }
 }
 

@@ -3,6 +3,7 @@ import { Container, Profile, Navega } from "./styles";
 import { Link } from "react-router-dom";
 
 export function Header(){
+
   return (
     <Container>
       <Profile>

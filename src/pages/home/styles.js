@@ -13,7 +13,7 @@ export const Container = styled.div`
   }
   
   h1 {
-    font-size: 43px;
+    font-size: 30px;
   }
 
   button {
@@ -39,6 +39,15 @@ export const Container = styled.div`
       background: #03FA6E;
    }
 
+}
+
+@media (min-width: 768px) {
+
+.home {
+   > h1 {
+      font-size: 43px;
+   }
+}
 }
 
 `;
