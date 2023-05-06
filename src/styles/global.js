@@ -15,7 +15,7 @@ export default createGlobalStyle`
  body {
   color: #FFFF;
   //background-color: #262628;
-  background: url("public/online-storecv.png") no-repeat fixed;
+  background: url("src/asset/online-storecv.png") no-repeat fixed;
   //background: url("public/online storecc.png") no-repeat fixed;
   background-size: cover;
   
