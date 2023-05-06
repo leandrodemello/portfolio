@@ -4,31 +4,36 @@ export const Container = styled.div`
   min-width: 425px;
 
 .home {
-   text-align: center;
+text-align: center;
 
-   img {
-
+   > img {
       width: 340px;
       height: 310px;
-  }
+   }
   
-  h1 {
-    font-size: 30px;
-  }
+   > h1 {
+      font-size: 30px;
+      margin-top: 10px;
+   }
 
-  button {
-     font-size: 14px;
-     font-weight: 700;
+   > p {
+      font-size: 14px;
+      margin-top: 10px;
+   }
 
-     height: 30px;
-     width: 120px;
-     margin-top: 20px;
-     border-radius: 3px;
+   > button {
+      font-size: 14px;
+      font-weight: 700;
 
-     border: 1px;
-     border-style: solid;
-     border-color: #03FA6E;
-     transition: .15s;
+      height: 30px;
+      width: 105px;
+      margin-top: 20px;
+      border-radius: 3px;
+
+      border: 1px;
+      border-style: solid;
+      border-color: #03FA6E;
+      transition: .15s;
      
    }
    
@@ -46,6 +51,7 @@ export const Container = styled.div`
 .home {
    > h1 {
       font-size: 43px;
+      
    }
 }
 }

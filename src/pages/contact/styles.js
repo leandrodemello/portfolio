@@ -19,9 +19,20 @@ h1 {
 
 form {
   display: flex;
-  justify-content: center;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
   margin: 10px;
+
+  width: 300px;
+  height: 320px;
+
+  border-radius: 5px;
+  backdrop-filter: blur(15px);
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 1.55);
+  -webkit-backdrop-filter: blur(15px);
   
 }
 
@@ -42,8 +53,6 @@ form {
   border-radius: 3px;
   margin-bottom: 10px;
   background-color: #bfe0ce;
-  transition: 0.5s;
-  
   
 }
 
@@ -54,15 +63,15 @@ form {
   border: none;
   border-radius: 3px;
   background-color: #bfe0ce;
-  transition: 0.5s;
 }
 
 .button {
   font-size: 14px;
   font-weight: 700;
   height: 30px;
-  width: 250px;
-  margin-top: 20px;
+  width: 120px;
+  margin-top: 10px;
+
   border-radius: 3px;
   border: 1px;
   border-style: solid;
@@ -100,6 +109,12 @@ transition: 0.5s;
 h1 {
   margin-top: 100px;
 }
+
+form {
+  width: 460px;
+  height: 350px;
+}
+
 .input {
   width: 400px;
 }
@@ -109,17 +124,12 @@ h1 {
 }
 
 .button {
-  width: 400px;
+  width: 150px;
 }
 
 .icones {
   margin-top: 20px;
 }
 }
-
-
-`;
-
-export const Imput = styled.div`
 
 `;
