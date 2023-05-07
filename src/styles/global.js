@@ -16,9 +16,9 @@ export default createGlobalStyle`
 
 body {
   color: #FFFF;
-  background-color: #2a2a5a;
-  //background: url(${backgroundImg}) no-repeat fixed;
-  //background-size: cover;
+  //background-color: #2a2a5a;
+  background: url(${backgroundImg}) no-repeat fixed;
+  background-size: cover;
 
 }
 
