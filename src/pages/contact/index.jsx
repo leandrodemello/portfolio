@@ -1,7 +1,7 @@
+import emailjs from '@emailjs/browser';
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-import emailjs from '@emailjs/browser';
 
 import { Container } from './styles';
 import { Header } from '../../components/Header';

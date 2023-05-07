@@ -1,6 +1,6 @@
-import backgroundImg from '../assets/background.png';
 import { createGlobalStyle } from "styled-components";
 
+import backgroundImg from '../assets/background.png';
 
 export default createGlobalStyle`
 * {
