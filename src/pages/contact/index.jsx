@@ -4,9 +4,9 @@ import { useNavigate } from 'react-router-dom';
 import emailjs from '@emailjs/browser';
 
 import { Container } from './styles';
-import { Header } from '../../components/header';
-import { Imput } from '../../components/imput';
-import { Textarea } from '../../components/textarea';
+import { Header } from '../../components/Header';
+import { Imput } from '../../components/Imput';
+import { Textarea } from '../../components/Textarea';
 
 import { FaGithub, FaLinkedin  } from "react-icons/fa";
 
