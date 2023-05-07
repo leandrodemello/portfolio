@@ -1,6 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 
-import backgroundImg from '../assets/background.png';
+import backgroundImg from "../assets/background.png";
 
 export default createGlobalStyle`
 * {
@@ -16,7 +16,7 @@ export default createGlobalStyle`
 
 body {
   color: #FFFF;
-  background-color: #262628;
+  background-color: #2a2a5a;
   //background: url(${backgroundImg}) no-repeat fixed;
   //background-size: cover;
 
