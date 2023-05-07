@@ -1,7 +1,7 @@
 import { Container } from "./styles";
 import { FaReact } from 'react-icons/fa'
  
-export function Foooter () {
+export function Footer () {
    return (
       <Container>
          <footer>

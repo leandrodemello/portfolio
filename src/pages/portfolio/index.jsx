@@ -1,7 +1,7 @@
 import { Container } from './styles';
 
-import { Header } from '../../components/Header';
-import { Foooter } from '../../components/Foooter';
+import { Header } from '../../components/header';
+import { Footer } from '../../components/footer';
 
 import { FaGithub, FaLinkedin  } from "react-icons/fa";
 
@@ -86,7 +86,7 @@ export function Portfolio() {
 
       </div>
 
-      <Foooter />
+      <Footer />
 
 
     </Container>

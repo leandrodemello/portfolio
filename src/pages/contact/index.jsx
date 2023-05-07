@@ -1,15 +1,14 @@
 import { useState } from 'react';
-import emailjs from '@emailjs/browser';
 import { useNavigate } from 'react-router-dom';
 
+import emailjs from '@emailjs/browser';
 
 import { Container } from './styles';
-import { Header } from '../../components/Header';
-import { Imput } from '../../components/Imput';
-import { Textarea } from '../../components/Textarea';
+import { Header } from '../../components/header';
+import { Imput } from '../../components/imput';
+import { Textarea } from '../../components/textarea';
 
 import { FaGithub, FaLinkedin  } from "react-icons/fa";
-import { BsFileEarmarkArrowDownFill} from "react-icons/bs";
 
 export function Contact() {
   const [name, setName] = useState("")
