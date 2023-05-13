@@ -24,7 +24,12 @@ export function Portfolio() {
                 </Link>
             <h2>Clone da Netflix
               <p>Um clone de uma das maiores stream do mundo....</p>
-              <span><button>HTML</button><button>CSS</button><button>JavaScript</button><button>ReactJs</button></span></h2>
+              <span>
+                <button>HTML</button>
+                <button>CSS</button>
+                <button>JavaScript</button>
+                <button>ReactJs</button>
+              </span></h2>
 
           </div>
 
@@ -32,7 +37,13 @@ export function Portfolio() {
               <Link to="/projeto2"> 
                 <img src="190703.jpg" alt="projeto 02"/>
                </Link>
-            <h2>PROJETO 02<span><button>HTML</button><button>CSS</button><button>JavaScript</button><button>ReactJs</button></span></h2>
+            <h2>PROJETO 02
+              <span>
+                <button>HTML</button>
+                <button>CSS</button>
+                <button>JavaScript</button>
+                <button>ReactJs</button>
+              </span></h2>
           </div>        
         */}
           <div className="card">
@@ -41,7 +52,13 @@ export function Portfolio() {
               </Link>
             <h2>Food Explorer
               <p>Um menu interativo para um restaurante ...</p>
-              <span><button>HTML</button><button>CSS</button><button>JavaScript</button><button>ReactJs</button></span></h2>
+              <span>
+                <button>ReactJS</button>
+                <button>Styled-Components</button>
+                <button>JavaScript</button>
+                <button>NodeJS</button>
+              </span>
+            </h2>
           </div>        
         
           <div className="card">
@@ -51,7 +68,12 @@ export function Portfolio() {
 
             <h2>Portfolio Explorer
               <p>Uma SPA com ReactJS que foi desenvolvida...</p>
-              <span><button>HTML</button><button>CSS</button><button>JavaScript</button></span></h2>
+              <span>
+                <button>ReactJS</button>
+                <button>Styled-Components</button>
+                <button>JavaScript</button>
+              </span>
+            </h2>
           </div>        
         
           <div className="card">
@@ -59,10 +81,15 @@ export function Portfolio() {
                  <img src="190136.jpg" alt="projeto 05"/>
              </Link>
 
-            <h2>Social Link
+            <h2>Social Link 
               <p>Esse projeto permite a integração de todas....</p>
 
-              <span><button>HTML</button><button>CSS</button><button>JavaScript</button></span></h2>
+              <span>
+                <button>JavaScript</button>
+                <button>CSS</button>
+                <button>HTML</button>
+              </span>
+            </h2>
           </div>        
         
           <div className="card-end">

@@ -21,11 +21,11 @@ export function Projeto3() {
              realizar o pagamento e acompanhar o status do pedido que é atualizado por um usuário administrador, 
              que além de atualizar o pedido também pode cadastrar um novo prato, atualizar e excluir qualquer prato.</p>
              <img src="food-exp.gif" alt="projeto 03"/>
-             <span>Tech Stack: NodeJS | SQlite | ReactJS | Styled-Components </span>
+             <span>Tech Stacks: JavaScript | ReactJS | Styled-Components | NodeJS </span>
             
             <div className='deploy'>
             <div className='icone-d'>
-                <a href="https://github.com/leandrodemello/food-explorer-end" target="_blank">
+                <a href="https://github.com/leandrodemello/food-explorer-front" target="_blank">
                     <FaGithub 
                      />
                   </a>
@@ -33,7 +33,7 @@ export function Projeto3() {
             </div>
 
             <div className='icone-d'>
-                <a href="https://food-explorer-end.netlify.app/" target="_blank">
+                <a href="https://foodexplorermcz.netlify.app/" target="_blank">
                     <BsGlobe2
                     />
                  </a>

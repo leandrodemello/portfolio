@@ -20,7 +20,7 @@ export function Projeto5() {
               ele permite a integração de todas as redes sociais em um único local. <br></br>
               Modo noturno, com o recurso o monitor ou tablet exibe cores quentes, que não agridem os olhos. </p>
              <img src="link.gif" alt="projeto-5"/>
-             <span>Tech Stack: HTML | CSS | JavaScript</span>
+             <span>Tech Stacks: JavaScript | CSS | HTML </span>
             
             <div className='deploy'>
             <div className='icone-d'>

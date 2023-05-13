@@ -44,7 +44,8 @@ margin: 0 auto;
   margin-top: 20px;
   
   > p {
-    font-size: 14px;
+    font-size: 15px;
+    padding: 5px;
   }
 
 }
@@ -59,7 +60,7 @@ margin: 0 auto;
   }
   
   .techs {
-   margin-top: 100px;
+   margin-top: 40px;
   }
 
 }
@@ -72,7 +73,7 @@ margin: 0 auto;
 
   .about {
     width: 864px;
-    margin-top: 100px;
+    margin-top: 130px;
       
   }
 

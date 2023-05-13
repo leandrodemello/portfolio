@@ -17,7 +17,7 @@ text-align: center;
    }
 
    > p {
-      font-size: 14px;
+      font-size: 18px;
       margin-top: 10px;
    }
 

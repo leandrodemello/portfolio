@@ -18,7 +18,7 @@ export function Projeto1() {
              <h1>Clone da Netflix</h1>
              <p>Um clone de uma das maiores stream do mundo.</p>
              <img src="troll.gif" alt="projeto 01"/>
-             <span>Tech Stack: ReactJS | JavaScript | CSS | HTML</span>
+             <span>Tech Stacks: ReactJS | JavaScript | CSS | HTML</span>
             
             <div className='deploy'>
             <div className='icone-d'>
