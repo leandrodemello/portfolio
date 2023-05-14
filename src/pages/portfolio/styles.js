@@ -127,7 +127,7 @@ main::-webkit-scrollbar-thumb{
    font-size: 18px;
    font-weight: 800;
 
-   color: #3c3d3d;
+   color: #000;
    width: 100%;
 
    
@@ -151,14 +151,15 @@ main::-webkit-scrollbar-thumb{
 }
 
 .card button  {
-   font-size: 12px;
-   border-radius: 7px;
+   font-size: 9px;
+   font-weight: 600;
+
+   border-radius: 5px;
    background-color: #ffff;
    height: 2.6rem;
    padding: 0 1.0rem;
    
    border: none;
-   
 }
 
 .card-end {
@@ -171,7 +172,7 @@ main::-webkit-scrollbar-thumb{
    border-radius: 3px;
    font-weight: 800;
 
-   color: #3c3d3d;
+   color: #000;
 
    > span {
       font-size: 20px;
@@ -245,6 +246,8 @@ main::-webkit-scrollbar-thumb{
        margin-right: 40px;
 
    }
+
+
 }
    
 @media (min-width: 1020px) {
@@ -313,6 +316,11 @@ main::-webkit-scrollbar-thumb{
    .card p {
    font-size: 15px;
    
+   }
+
+   .card button  {
+      font-size: 12px;
+    
    }
 
 }

@@ -8,41 +8,36 @@ export function Header(){
     <Container>
       <Profile>
         <div className="nome">
-        <img src="logo.png" alt="logo"/>
+        <img src="logo-header.png" alt="logo"/>
 
 
         </div>
       </Profile>
 
       <Navega>
+         
          <nav>
             <ul>
-
                <li>
                   <Link to="/">
                     Home
                   </Link>
                 </li>
-                
                 <li>
                   <Link to="/about">
                     Sobre
                   </Link>
                 </li>
-                
-
-               <li>
+                <li>
                   <Link to="/portfolio">
                     Projetos
                   </Link>
                 </li>
-
-               <li>
+                <li>
                   <Link to="/contact">
                     Contato
                  </Link>
-               </li>
-
+                </li>
             </ul>
          </nav>
 

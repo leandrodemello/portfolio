@@ -9,7 +9,7 @@ margin: 0 auto;
    margin: 50px 0 100px 0;
 
  > p {
-   font-size: 23px;
+   font-size: 19px;
    line-height: 30px;
    text-align: justify;
  }
@@ -57,6 +57,10 @@ margin: 0 auto;
    margin-top: 90px;
    margin-left: 40px;
    margin-right: 40px;
+   
+    > p {
+      font-size: 22px;
+    }
   }
   
   .techs {

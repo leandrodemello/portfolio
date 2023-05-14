@@ -39,7 +39,7 @@ export function About() {
             </div>
 
             <div className='item'>
-                <a href="http://www.google.com" title="Currículo" target="_blank">
+                <a href="http://www.google.com" title="Baixar CV" target="_blank">
                     <BsFileEarmarkArrowDownFill
                     />
                 </a>

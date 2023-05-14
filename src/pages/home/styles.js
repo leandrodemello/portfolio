@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  min-width: 425px;
+  min-width: 500px;
 
 .home {
 text-align: center;
@@ -12,21 +12,21 @@ text-align: center;
    }
   
    > h1 {
-      font-size: 30px;
+      font-size: 25px;
       margin-top: 10px;
    }
 
    > p {
-      font-size: 18px;
+      font-size: 15px;
       margin-top: 10px;
    }
 
    > button {
-      font-size: 14px;
+      font-size: 13px;
       font-weight: 700;
 
-      height: 30px;
-      width: 105px;
+      height: 28px;
+      width: 100px;
       margin-top: 20px;
       border-radius: 3px;
 
@@ -52,6 +52,17 @@ text-align: center;
    > h1 {
       font-size: 43px;
       
+   }
+
+   > p {
+      font-size: 19px;
+   }
+
+   > button {
+      font-size: 14px;
+
+      height: 30px;
+      width: 105px;
    }
 }
 }

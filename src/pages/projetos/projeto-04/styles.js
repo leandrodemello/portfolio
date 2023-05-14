@@ -8,35 +8,30 @@ export const Container = styled.div`
    flex-direction: column;
    align-items: center;
    margin-top: 10px;
-   transition: 1s;
 
    > h1 {
       font-size: 28px;
-      transition: 1s;
 
    }
 
    > p  {
-      font-size: 16px;
+      font-size: 19px;
       text-align: justify;
       margin-top: 10px;
       margin-bottom: 10px;
-      transition: 1s;
       width: 350px;
 
    }
 
    > span {
-      font-size: 14px;
+      font-size: 10px;
       padding: 10px;
-      transition: 1s;
 
    }
 
    > img {
       height: 250px; 
       width: 350px;
-      transition: 1s;
 
    }
    
@@ -45,8 +40,8 @@ export const Container = styled.div`
 .deploy {
    display: flex;
    justify-content: center;
-   font-size: 25px;
-   padding: 10px;
+   font-size: 22px;
+   padding: 5px;
 
 }
 
@@ -76,6 +71,8 @@ export const Container = styled.div`
       font-weight: 800;
       gap: 3px;
       padding-left: 20px;
+      margin-bottom: 20px;
+      margin-left: 40px;
 
    }
    
@@ -97,6 +94,7 @@ export const Container = styled.div`
    }
 
    > p {
+      font-size: 20px;
       width: 650px;
 
    }
@@ -107,7 +105,7 @@ export const Container = styled.div`
    }
 
    > span {
-      font-size: 18px;
+      font-size: 17px;
 
    }
 
@@ -137,10 +135,13 @@ export const Container = styled.div`
    
    .project {
       transition: 1s;
-      display: grid;
-      justify-content: center;
-      justify-items: end;
-      margin-top: 20px;
+      margin-top: 30px;
+
+      > p {
+         width: 950px;
+         margin-bottom: 20px;
+   
+      }
 
    }
 

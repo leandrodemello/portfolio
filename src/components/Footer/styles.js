@@ -10,7 +10,7 @@ footer {
       font-size: 15px;
       padding: 10px;
       gap: 10px;
-      margin-top: 50px;
+      margin-top: 80px;
       
       > p {
          height: 25px;
