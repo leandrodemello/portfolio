@@ -15,10 +15,9 @@ export function Portfolio() {
       <Header/>
       <div className="page">
 
-        <h1 className='my-project'>Meus Projetos</h1>
-
+          <h1 className='my-project'>Meus Projetos</h1>
         <main>
-          {/* <div className="card">
+           {/* <div className="card">
                 <Link to="/projeto1"> 
                   <img src="" alt="projeto 01"/>
                 </Link>

@@ -5,9 +5,8 @@ min-width: 425px;
 margin: 0 auto;
 
 h1 {
-   font-size: 4.0rem;
-   margin-top: 5.0rem;   //pc 10.0rem
-   margin-bottom: 3.0rem;
+   font-size: 3.0rem;
+   margin: 10px;
 
    text-align: center;
 
@@ -17,7 +16,6 @@ h1 {
 }
 
 main {
-   margin-top: 10px;
    height: 900px; //altura vertical do scrollbar
    display: grid;
    gap: 1.0rem;
@@ -220,12 +218,10 @@ main::-webkit-scrollbar-thumb{
 
    }
 
-
 }
 
 @media (min-width: 768px) {
    .page {
-      max-width: 1020px;
       padding: 0 5.0rem;
    }
    main {
@@ -239,17 +235,17 @@ main::-webkit-scrollbar-thumb{
    }  
 
    h1 {
+      font-size: 4.0rem;
        text-align: end;
-       margin-right: 40px;
+       padding: 10px;
+       margin: 10px 40px;
 
    }
-
 
 }
    
 @media (min-width: 1020px) {
    .page {
-      max-width: 1500px;
       padding: 0 40px;
    }
    main {
