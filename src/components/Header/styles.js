@@ -1,36 +1,33 @@
 import styled from "styled-components";
 
 export const Container = styled.header`
-    min-width: 425px;
+min-width: 425px;
+grid-area: header;
 
-    grid-area: header;
+height: 110px; 
+width: 100%; 
 
-    height: 120px; 
-    width: 100%; 
-    
-    display: flex; 
-    justify-content: space-between;
-    align-items: center;
-    
-    padding: 15px;
-    
-    @media (min-width: 770px) {
-      transition: 1s;
-      height: 50px; 
-       
-   }
+display: flex; 
+justify-content: space-between;
+align-items: center;
+
+padding: 15px;
+
+@media (min-width: 770px) {
+  transition: 1s;
+  height: 70px; 
+   
+}
 
 `;
 
 export const Profile = styled.div`
 
 img {
-   width: 140px;
-   height: 150px;
-   transition: .15s;
+   width: 160px;
+   height: 140px;
          
 }
-
 `;
 
 export const Navega = styled.div`
