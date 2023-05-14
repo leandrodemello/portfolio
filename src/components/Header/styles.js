@@ -4,16 +4,13 @@ export const Container = styled.header`
 min-width: 425px;
 grid-area: header;
 
-height: 110px; 
 width: 100%; 
 
 display: flex; 
 justify-content: space-between;
-align-items: center;
+padding: 10px;
 
-padding: 15px;
-
-@media (min-width: 770px) {
+@media (min-width: 768px) {
   transition: 1s;
   height: 70px; 
    
@@ -24,13 +21,21 @@ padding: 15px;
 export const Profile = styled.div`
 
 img {
-   width: 160px;
-   height: 140px;
+   width: 140px;
+   height: 100px;
          
 }
 `;
 
 export const Navega = styled.div`
+
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+
+}
 
 li {
    font-size: 19px;
@@ -39,21 +44,28 @@ li {
    padding: 2px;
    transition: .15s;
 
- @media (min-width: 770px) {
-   max-width: 1900px;
-   float: left;
-   margin-left: 25px;
-
- }
-
 }
 
 li:hover {
 
-   color: #03FA6E;
-   cursor: pointer;
-   transition: .15s;
+  color: #03FA6E;
+  cursor: pointer;
+  transition: .15s;
 
 }
 
+@media (min-width: 768px) {
+  max-width: 1500px;
+  
+  ul {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  li {
+    margin-left: 25px;
+
+  }
+
+}
 `;

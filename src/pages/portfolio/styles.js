@@ -2,10 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
 min-width: 425px;
-
-.page {
-   margin: 0 auto;
-}
+margin: 0 auto;
 
 h1 {
    font-size: 4.0rem;

@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-max-width: 425px;
+min-width: 425px;
 margin: 0 auto;
 
 .about {
    padding: 15px;
-   margin: 50px 0 100px 0;
+   margin: 10px 40px;
 
  > p {
    font-size: 19px;

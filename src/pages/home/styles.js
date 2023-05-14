@@ -4,11 +4,12 @@ export const Container = styled.div`
   min-width: 500px;
 
 .home {
-text-align: center;
+   text-align: center;
 
    > img {
-      width: 340px;
-      height: 310px;
+      width: 240px;
+      height: 210px;
+      margin-top: 50px;
    }
   
    > h1 {
@@ -49,6 +50,13 @@ text-align: center;
 @media (min-width: 768px) {
 
 .home {
+
+   > img {
+      width: 340px;
+      height: 310px;
+      margin-top: 0px;
+   }
+
    > h1 {
       font-size: 43px;
       
