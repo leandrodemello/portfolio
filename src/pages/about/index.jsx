@@ -14,7 +14,8 @@ export function About() {
       <Header/>
         
         <div className="about">
-            <p> <strong>Olá!</strong> Me chamo Leandro Mello, moro em Alagoas
+            <h1>Olá!</h1>
+            <p>Me chamo Leandro Mello, moro em Alagoas
             e sou Desenvolvedor Web Front-End apaixonado por tecnogia. <br /> 
             Desde que comecei tenho estado em constante aprendizado, sempre me colocando a 
             disposição para aprender uma nova tecnologia ou ferramenta, porque acredito que na 

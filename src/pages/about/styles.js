@@ -8,6 +8,11 @@ margin: 0 auto;
    padding: 15px;
    margin: 10px 40px;
 
+  > h1 {
+   font-size: 22px;
+
+  }
+
  > p {
    font-size: 19px;
    line-height: 30px;
@@ -77,7 +82,7 @@ margin: 0 auto;
 
   .about {
     width: 864px;
-    margin-top: 130px;
+    margin-top: 100px;
       
   }
 
