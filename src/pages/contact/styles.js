@@ -8,7 +8,7 @@ export const Container = styled.div`
 
 h1 {
   font-size: 50px;
-  margin-top: 50px;
+  margin-top: 20px;
   margin-bottom: 10px;
 
   border-bottom-style: solid;
@@ -103,11 +103,11 @@ form {
   
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
 transition: 0.5s;
 
 h1 {
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 form {

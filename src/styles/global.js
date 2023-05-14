@@ -9,6 +9,19 @@ export default createGlobalStyle`
    box-sizing: border-box;
 }
 
+*::-webkit-scrollbar {
+  width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #c5c4c4;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #03FA6E;
+  border-radius: 1.0rem;
+}
+
 :root {
   font-size: 65%;
 
