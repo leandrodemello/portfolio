@@ -15,6 +15,8 @@ footer {
       > p {
          height: 25px;
          font-weight: 800;
+         color: #9e9ea0;
+
 
       }
 

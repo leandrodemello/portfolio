@@ -66,26 +66,26 @@ form {
 }
 
 .button {
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 700;
-  height: 30px;
-  width: 120px;
-  margin-top: 10px;
 
-  border-radius: 3px;
-  border: 1px;
-  border-style: solid;
-  border-color: #03FA6E;
-  transition: .15s;
+  height: 30px;
+  width: 110px;
+  margin-top: 5px;
+  background-color: #04d361;
+
+  border: none;
+  border-radius: 5px;
+
+  cursor: pointer;
      
 }
    
 .button:hover {
-  background: #03FA6E;
   border: none;
-  cursor: pointer;
-  transition: .15s;
+  background-color: #039645;
 }
+
 
 .icones {
   display: flex; 
@@ -125,6 +125,8 @@ form {
 
 .button {
   width: 150px;
+  font-size: 15px;
+
 }
 
 .icones {

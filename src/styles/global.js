@@ -1,6 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 
-import backgroundImg from "../assets/background.png";
+import Img from "../assets/estrelas.svg";
 
 export default createGlobalStyle`
 * {
@@ -28,10 +28,10 @@ export default createGlobalStyle`
 }
 
 body {
-  color: #FFFF;
-  //background-color: #2a2a5a;
-  background: url(${backgroundImg}) no-repeat fixed;
+  color: #eaeaea;
+  background: url(${Img}) repeat ;
   background-size: cover;
+  background-color: #121215;
 
 }
 
@@ -42,6 +42,7 @@ body, input, button, textarea {
 
 button, a {
   cursor: pointer;
+  border: none;
   text-decoration: none;
 
 }

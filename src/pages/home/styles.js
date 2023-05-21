@@ -20,29 +20,24 @@ export const Container = styled.div`
    > p {
       font-size: 15px;
       margin-top: 10px;
+      color: #9e9ea0;
    }
 
    > button {
       font-size: 13px;
       font-weight: 700;
 
-      height: 28px;
-      width: 100px;
+      height: 30px;
+      width: 110px;
       margin-top: 20px;
-      border-radius: 3px;
-
-      border: 1px;
-      border-style: solid;
-      border-color: #03FA6E;
-      transition: .15s;
-     
+      border-radius: 5px;
+      background-color: #04d361;
+      
+      
    }
    
    button:hover {
-      transition: .15s;
-      cursor: pointer;
-      border: none;
-      background: #03FA6E;
+      background-color: #039645;
    }
 
 }
@@ -69,8 +64,8 @@ export const Container = styled.div`
    > button {
       font-size: 14px;
 
-      height: 30px;
-      width: 105px;
+      height: 35px;
+      width: 120px;
    }
 }
 }
