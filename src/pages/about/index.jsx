@@ -40,7 +40,7 @@ export function About() {
             </div>
 
             <div className='item'>
-                <a href="https://drive.google.com/u/1/uc?id=1Iv35pOYkMSlmTSHTctciolHt2fkf9Xi5&export=download " title="Baixar CV" target="_blank">
+                <a href="https://drive.google.com/u/1/uc?id=15B0dDZVmSJB5w4jD3_XsVtvhqd7rNFbf&export=download" title="Baixar CV" target="_blank">
                     <BsFileEarmarkArrowDownFill
                     />
                 </a>
