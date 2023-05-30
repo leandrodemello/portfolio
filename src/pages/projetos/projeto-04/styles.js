@@ -32,6 +32,7 @@ export const Container = styled.div`
    > img {
       height: 250px; 
       width: 350px;
+      border-radius: 3px;
 
    }
    

@@ -33,6 +33,7 @@ export const Container = styled.div`
       height: 250px; 
       width: 350px;
 
+      border-radius: 3px;
    }
    
 }

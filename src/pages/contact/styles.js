@@ -23,7 +23,7 @@ form {
   justify-content: center;
   align-items: center;
   
-  margin: 10px;
+  margin: 5px;
 
   width: 300px;
   height: 320px;
@@ -124,6 +124,8 @@ form {
 }
 
 .button {
+  margin-top: 10px;
+
   width: 150px;
   font-size: 15px;
 

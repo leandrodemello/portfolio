@@ -184,15 +184,15 @@ main::-webkit-scrollbar-thumb{
       align-items: center;
       justify-content: center;
       gap: 10px;
-      height: 50px; //altura vertical do cinza
-      width: 100%;  // largura horizontal do cinza
+      height: 50px; 
+      width: 100%;  
       
       button {
          display: flex;
          justify-content: center;
          align-items: center;
 
-         font-size: 19px;
+         font-size: 16px;
          gap: 5px;
          width: 115px;
          height: 30px;
