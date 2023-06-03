@@ -45,7 +45,6 @@ margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: #9e9ea0;
 
   margin-top: 20px;
   

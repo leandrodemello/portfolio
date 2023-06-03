@@ -20,7 +20,6 @@ export const Container = styled.div`
    > p {
       font-size: 15px;
       margin-top: 10px;
-      color: #9e9ea0;
    }
 
    > button {
