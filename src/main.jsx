@@ -5,7 +5,9 @@ import { Routes } from './routes';
 import { ThemeProvider } from 'styled-components';
 import GlobalStyles from './styles/global';
 import theme from './styles/theme';
-import { Efect } from './components/Efect';
+
+import { Efect } from './components/Efect-gren';
+import { EfectGalaxy } from './components/Efect-galaxy';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   
@@ -16,6 +18,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         
         <Routes />
 
+        <EfectGalaxy />
 
     </ThemeProvider>
   </React.StrictMode>

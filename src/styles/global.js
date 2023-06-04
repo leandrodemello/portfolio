@@ -1,7 +1,5 @@
 import { createGlobalStyle } from "styled-components";
 
-//import Img from "../assets/estrelas.svg";
-
 export default createGlobalStyle`
 * {
    margin: 0;
@@ -29,9 +27,7 @@ export default createGlobalStyle`
 
 body {
   color: #eaeaea;
-  background: url(bg-galaxia-loop.gif)  ;
-  //background-size: cover;
-  //background-color: #121215;
+  background-color: #000000;
 
 }
 
