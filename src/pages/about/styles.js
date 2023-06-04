@@ -8,15 +8,24 @@ margin: 0 auto;
    padding: 15px;
    margin: 10px 40px;
 
-  > h1 {
+ > h1 {
    font-size: 22px;
 
-  }
+ }
 
- > p {
+ > h2 {
    font-size: 19px;
-   line-height: 30px;
+   line-height: 35px;
    text-align: justify;
+   font-weight: lighter;
+
+   margin-top: 20px;
+   
+  }
+  
+  >  {
+    text-decoration-line: underline;
+
  }
 
 }
