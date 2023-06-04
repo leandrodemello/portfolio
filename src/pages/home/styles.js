@@ -22,6 +22,11 @@ export const Container = styled.div`
       margin-top: 10px;
    }
 
+   b {
+      font-weight: lighter;
+      text-decoration-line: underline;
+   }
+
    > button {
       font-size: 13px;
       font-weight: 700;
