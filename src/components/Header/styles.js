@@ -10,7 +10,11 @@ display: flex;
 justify-content: space-between;
 padding: 10px;
 
-//border-bottom: 1px solid;
+border-radius: 5px;
+  backdrop-filter: blur(15px);
+  background: rgba(255, 255, 255, 0.08);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 1.55);
+  -webkit-backdrop-filter: blur(15px);
 
 @media (min-width: 768px) {
   transition: 1s;
