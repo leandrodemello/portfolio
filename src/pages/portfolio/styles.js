@@ -6,7 +6,7 @@ margin: 0 auto;
 
 h1 {
    font-size: 3.0rem;
-   margin: 10px;
+   margin: 20px 0 0 10px;
 
    text-align: center;
 
@@ -139,22 +139,33 @@ main::-webkit-scrollbar-thumb{
 
 .card span {
    display: flex;
-   justify-content: flex-end;
+   justify-content: end;
    padding-top: 3px;
-   gap: 5px;
+   gap: 3px;
 
 }
 
 .card button  {
-   font-size: 9px;
-   font-weight: 600;
+  outline: none; 
+  width: max-content; 
+  height: max-content; 
+  background: #3b82f6; 
+  padding: 6px 6px;  
+  border-radius: 7px; 
+  cursor: pointer; 
+  position: relative; 
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 600; 
+  font-family: 'Nunito', sans-serif; 
+  color: rgb(255, 255, 255); 
+  transition: .2s; 
+  transition-timing-function: linear; 
+}
 
-   border-radius: 5px;
-   background-color: #ffff;
-   height: 2.6rem;
-   padding: 0 1.0rem;
-   
-   border: none;
+.card button:hover { 
+  background-color: #316ac5;
+  box-shadow: 5px 6px 0px rgb(0, 0, 0); 
 }
 
 .card-end {
@@ -183,7 +194,7 @@ main::-webkit-scrollbar-thumb{
       display: flex;
       align-items: center;
       justify-content: center;
-      gap: 10px;
+      gap: 4px;
       height: 50px; 
       width: 100%;  
       
@@ -192,28 +203,34 @@ main::-webkit-scrollbar-thumb{
          justify-content: center;
          align-items: center;
 
-         font-size: 16px;
+         outline: none; 
+         width: max-content; 
+         height: max-content; 
+         background: #3b82f6; 
+         padding: 6px 6px; 
+         border-radius: 7px; 
+         cursor: pointer; 
+         position: relative; 
+         text-decoration: none; 
+         font-weight: 700; 
+         font-family: 'Nunito', sans-serif; 
+         color: rgb(255, 255, 255); 
+         transition: .2s; 
+         transition-timing-function: linear; 
          gap: 5px;
-         width: 115px;
-         height: 30px;
          
          color: #f0f9ff;
-         background-color: #3b82f6;
-
-         border: none;
-         border-radius: 5px;
 
          p {
-            font-weight: 800;
+            font-weight: 600;
 
          }
          
       }
 
       button:hover {
-         cursor: pointer;
          background-color: #316ac5;
-         transition: 0.5s;
+         box-shadow: 5px 6px 0px rgb(0, 0, 0);
       }
 
    }
@@ -312,7 +329,8 @@ main::-webkit-scrollbar-thumb{
    }
 
    .card button  {
-      font-size: 12px;
+      font-size: 13px;
+      padding: 7px 10px;
     
    }
 
@@ -321,6 +339,12 @@ main::-webkit-scrollbar-thumb{
 @media (min-width: 1440px) {
    .page {
       padding: 0 40px;
+   }
+
+   h1 {
+   margin-top: 20px;
+   margin-bottom: 30px;
+
    }
    main {
       grid-template-areas: "A B C" "D E F";

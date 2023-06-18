@@ -4,22 +4,21 @@ export const Container = styled.header`
 min-width: 425px;
 grid-area: header;
 
-width: 100%; 
-
+width: 100%;
 display: flex; 
 justify-content: space-between;
-padding: 10px;
+padding: px;
 
-border-radius: 5px;
-  backdrop-filter: blur(15px);
-  background: rgba(255, 255, 255, 0.08);
-  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 1.55);
-  -webkit-backdrop-filter: blur(15px);
+border-radius: 40px;
+backdrop-filter: blur(15px);
+background: rgba(255, 255, 255, 0.08);
+box-shadow: 0 0 10px 1px rgba(0, 0, 0, 1.55);
+-webkit-backdrop-filter: blur(15px);
 
 @media (min-width: 768px) {
   transition: 1s;
-  height: 70px; 
-   
+  height: 50px;
+  margin-top: 5px;
 }
 
 `;
@@ -29,7 +28,8 @@ export const Profile = styled.div`
 img {
    width: 120px;
    height: 90px;
-   margin-left: 10px;
+   margin-left: 15px;
+   margin-top: 10px;
          
 }
 
@@ -39,11 +39,10 @@ img {
 img {
    width: 120px;
    height: 90px;
-   margin-left: 20px;
-   margin-top: -20px;
+   margin-left: 30px;
+   margin-top: -21px;
          
 }
-  
 
 }
 `;
@@ -90,6 +89,5 @@ li:hover {
   }
 
 }
-
 
 `;

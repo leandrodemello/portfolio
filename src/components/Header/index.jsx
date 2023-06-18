@@ -20,6 +20,11 @@ export function Header(){
          
          <nav>
             <ul>
+            <li>
+                  <Link to="/">
+                    Início
+                  </Link>
+                </li>               
                 <li>
                   <Link to="/about">
                     Sobre

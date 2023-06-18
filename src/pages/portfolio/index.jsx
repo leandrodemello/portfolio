@@ -15,7 +15,7 @@ export function Portfolio() {
       <Header/>
       <div className="page">
 
-          <h1 className='my-project'>Meus Projetos</h1>
+          <h1 className='my-project'>Projetos</h1>
         <main>
            {/* <div className="card">
                 <Link to="/projeto1"> 
@@ -38,12 +38,13 @@ export function Portfolio() {
                </Link>
             <h2>PROJETO 02
               <span>
-                <button>HTML</button>
-                <button>CSS</button>
-                <button>JavaScript</button>
-                <button>ReactJs</button>
+              <button>ReactJs</button>
+              <button>JavaScript</button>
+              <button>Figma</button>
               </span></h2>
-          </div>        
+          </div>    background-color: #8BC6EC;
+background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    
         */}
           <div className="card">
               <Link to="/projeto3"> 
@@ -53,8 +54,8 @@ export function Portfolio() {
               <p>Um menu interativo para um restaurante ...</p>
               <span>
                 <button>ReactJS</button>
-                <button>Styled-Components</button>
                 <button>JavaScript</button>
+                <button>SQLite</button> 
                 <button>NodeJS</button>
               </span>
             </h2>
@@ -69,8 +70,12 @@ export function Portfolio() {
               <p>Uma SPA com ReactJS que foi desenvolvida...</p>
               <span>
                 <button>ReactJS</button>
-                <button>Styled-Components</button>
                 <button>JavaScript</button>
+                <button>SQLite</button> 
+                <button>NodeJS</button>
+
+
+
               </span>
             </h2>
           </div>        
@@ -87,6 +92,8 @@ export function Portfolio() {
                 <button>JavaScript</button>
                 <button>CSS</button>
                 <button>HTML</button>
+                <button>Figma</button>
+
               </span>
             </h2>
           </div>        

@@ -21,7 +21,7 @@ export function Projeto4() {
               'Explorer' da Rocketseat. Usei o conceito do Linktree como minha inspiração 
               para construir este site.</p>
              <img src="exp-celde.gif" alt="projeto 04"/>
-             <span>Tech Stacks: ReactJS | JavaScript | Styled-Components </span>
+             <span>Tech Stacks: ReactJS | Styled-Components | JavaScript | SQLite | NodesJs | Git | Figma </span>
             
             <div className='deploy'>
             <div className='icone-d'>

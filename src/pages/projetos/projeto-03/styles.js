@@ -65,16 +65,19 @@ export const Container = styled.div`
 }
 
 .return {
-   
+   bottom: 0;
+   left: 0;
+   width: 20%;
+
+
    p {
       display: flex;
       align-items: center;
       font-size: 15px;
       font-weight: 800;
       gap: 3px;
-      padding-left: 20px;
+     padding-left: 20px;
       margin-bottom: 20px;
-      margin-left: 40px;
 
    }
    

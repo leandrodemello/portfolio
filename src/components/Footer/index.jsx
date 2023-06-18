@@ -12,7 +12,6 @@ export function Footer () {
                  <FaReact/>
                </a>
             </span>
-
             
          </footer>
       </Container>

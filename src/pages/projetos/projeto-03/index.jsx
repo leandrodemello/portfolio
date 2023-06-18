@@ -21,7 +21,7 @@ export function Projeto3() {
              realizar o pagamento e acompanhar o status do pedido que é atualizado por um usuário administrador, 
              que além de atualizar o pedido também pode cadastrar um novo prato, atualizar e excluir qualquer prato.</p>
              <img src="food-exp.gif" alt="projeto 03"/>
-             <span>Tech Stacks: JavaScript | ReactJS | Styled-Components | NodeJS </span>
+             <span>Tech Stacks: ReactJS | Styled-Components | JavaScript | SQLite | NodeJS   </span>
             
             <div className='deploy'>
             <div className='icone-d'>
