@@ -6,7 +6,7 @@ margin: 0 auto;
 
 h1 {
    font-size: 3.0rem;
-   margin: 20px 0 0 10px;
+   margin: 40px 0 0 10px;
 
    text-align: center;
 

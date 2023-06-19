@@ -24,7 +24,7 @@ header {
   height: 40px;
   border-radius: 40px;
   backdrop-filter: blur(15px);
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.1);
   box-shadow: 0 0 10px 1px rgba(0, 0, 0, 1.55);
   -webkit-backdrop-filter: blur(15px);
 

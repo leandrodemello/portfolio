@@ -11,7 +11,7 @@ margin: 0 auto;
 
 .init {
   padding: 5px;
-  margin: 10px 40px;
+  margin: 50px 40px;
 
  > h1 {
    font-size: 22px;

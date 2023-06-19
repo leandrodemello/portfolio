@@ -13,7 +13,7 @@ export const Container = styled.div`
 
 h1 {
   font-size: 50px;
-  margin-top: 20px;
+  margin-top: 50px;
   margin-bottom: 10px;
   border-bottom-style: solid;
   border-bottom-width: 1px;
