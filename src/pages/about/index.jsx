@@ -1,6 +1,6 @@
 import { Container } from './styles';
 
-import { Header } from '../../components/Header';
+import { Navbar } from '../../components/Header2';
 
 import { FaGithub, FaLinkedin  } from "react-icons/fa";
 import { BsFileEarmarkArrowDownFill} from "react-icons/bs";
@@ -11,9 +11,12 @@ export function About() {
   return (
     <Container>
 
-      <Header/>
+      <Navbar />
         
         <div className="about">
+
+          <div className='init'>
+
             <h1>Olá Mundo!</h1>
             <h2>Me chamo <b>Leandro Mello</b>, moro em Alagoas
             e sou um <b>Desenvolvedor Web Front-End</b> apaixonado por tecnologia. <br /> 
@@ -21,7 +24,7 @@ export function About() {
             disposição para aprender uma nova tecnologia ou ferramenta, porque acredito que na 
             programação não existe um limite, sempre há um próximo nível e estou sempre em busca dele.</h2>
 
-
+          </div>
 
           <div className='container'>
             <div className='item'>
@@ -51,7 +54,7 @@ export function About() {
           </div>
 
           <div className="techs">
-            <p>Tech skills:</p>
+            <p>Tech Stack:</p>
             <p>
               <svg xmlns="http://www.w3.org/2000/svg" width="39" height="34" viewBox="0 0 512 512"><path fill="currentColor" d="M386.399 35.508C217.06-64.061 1.885 57.55.012 253.882c-1.828 191.716 201.063 315.545 370.02 231.163L185.56 213.636v167.997c0 18.614-35.619 18.614-35.619 0V156.421c0-14.776 27.448-15.989 35.226-3.145L395.43 470.572c157.95-101.737 155.817-338.136-9.031-435.064zm-23.756 317.939L326.91 298.87V149.458c0-13.932 35.732-13.932 35.732 0v203.989z"/></svg >
               <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 128 128"><path fill="#38bdf8" d="M64.004 25.602c-17.067 0-27.73 8.53-32 25.597c6.398-8.531 13.867-11.73 22.398-9.597c4.871 1.214 8.352 4.746 12.207 8.66C72.883 56.629 80.145 64 96.004 64c17.066 0 27.73-8.531 32-25.602c-6.399 8.536-13.867 11.735-22.399 9.602c-4.87-1.215-8.347-4.746-12.207-8.66c-6.27-6.367-13.53-13.738-29.394-13.738zM32.004 64c-17.066 0-27.73 8.531-32 25.602C6.402 81.066 13.87 77.867 22.402 80c4.871 1.215 8.352 4.746 12.207 8.66c6.274 6.367 13.536 13.738 29.395 13.738c17.066 0 27.73-8.53 32-25.597c-6.399 8.531-13.867 11.73-22.399 9.597c-4.87-1.214-8.347-4.746-12.207-8.66C55.128 71.371 47.868 64 32.004 64zm0 0"/></svg>

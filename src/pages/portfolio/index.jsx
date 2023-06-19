@@ -1,6 +1,6 @@
 import { Container } from './styles';
 
-import { Header } from '../../components/Header';
+import { Navbar } from '../../components/Header2';
 import { Footer } from '../../components/Footer';
 
 import { FaGithub, FaLinkedin  } from "react-icons/fa";
@@ -12,7 +12,7 @@ export function Portfolio() {
   
   return (
     <Container>
-      <Header/>
+      <Navbar />
       <div className="page">
 
           <h1 className='my-project'>Projetos</h1>
@@ -120,7 +120,6 @@ background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
       </div>
 
       <Footer />
-
 
     </Container>
   )

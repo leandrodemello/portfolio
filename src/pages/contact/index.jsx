@@ -4,11 +4,11 @@ import { useNavigate } from 'react-router-dom';
 
 
 import { Container } from './styles';
-import { Header } from '../../components/Header';
 import { Imput } from '../../components/Imput';
 import { Textarea } from '../../components/Textarea';
 
 import { FaGithub, FaLinkedin  } from "react-icons/fa";
+import { Navbar } from '../../components/Header2';
 
 export function Contact() {
   const [name, setName] = useState("")
@@ -44,7 +44,7 @@ export function Contact() {
   
   return (
     <Container>
-      <Header/>
+      <Navbar />
         <div className="container">
           <h1 className='title'>Contato</h1>
 
@@ -75,9 +75,8 @@ export function Contact() {
 
             <input className='button' type="submit" value="Enviar" />
           </form>
-        </div>
-        
-        <div className='icones'>
+
+          <div className='icones'>
             <div className='item'>
                 <a href="https://github.com/leandrodemello" title="GitHub" target="_blank">
                     <FaGithub 
@@ -92,7 +91,10 @@ export function Contact() {
                  </a>
             </div>
           
+          </div>
+
         </div>
+
     </Container>
   )
 

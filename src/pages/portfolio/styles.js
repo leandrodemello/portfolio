@@ -90,7 +90,7 @@ main::-webkit-scrollbar-thumb{
 }
 
 .card {
-   position: relative;
+   //position: relative;
    border-radius: 3px;
    height: 360px;
    
@@ -105,12 +105,12 @@ main::-webkit-scrollbar-thumb{
    border-radius: 3px;
    
    transition: transform 200ms;
-   opacity: 0.7;
+   //opacity: 0.8;
 }
 
 .card img:hover {
    transform: scale(1.1);
-   opacity: 1;
+   //opacity: 1;
    
 }
 
@@ -129,7 +129,7 @@ main::-webkit-scrollbar-thumb{
    padding-right: 2.0rem;
    padding-left: 2.0rem;
    
-   position: absolute;
+   //position: absolute;
 }
 
 .card p {
@@ -153,7 +153,7 @@ main::-webkit-scrollbar-thumb{
   padding: 6px 6px;  
   border-radius: 7px; 
   cursor: pointer; 
-  position: relative; 
+  //position: relative; 
   text-decoration: none;
   font-size: 12px;
   font-weight: 600; 
@@ -199,28 +199,26 @@ main::-webkit-scrollbar-thumb{
       width: 100%;  
       
       button {
-         display: flex;
-         justify-content: center;
-         align-items: center;
-
-         outline: none; 
-         width: max-content; 
-         height: max-content; 
-         background: #3b82f6; 
-         padding: 6px 6px; 
-         border-radius: 7px; 
-         cursor: pointer; 
-         position: relative; 
-         text-decoration: none; 
-         font-weight: 700; 
-         font-family: 'Nunito', sans-serif; 
-         color: rgb(255, 255, 255); 
-         transition: .2s; 
-         transition-timing-function: linear; 
-         gap: 5px;
-         
-         color: #f0f9ff;
-
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      outline: none; 
+      width: max-content; 
+      height: max-content; 
+      background: #3b82f6; 
+      padding: 6px 6px; 
+      border-radius: 7px; 
+      cursor: pointer; 
+      //position: relative; 
+      text-decoration: none; 
+      font-weight: 700; 
+      font-family: 'Nunito', sans-serif; 
+      color: rgb(255, 255, 255); 
+      transition: .2s; 
+      transition-timing-function: linear; 
+      gap: 5px;
+      
+      color: #f0f9ff;
          p {
             font-weight: 600;
 
@@ -351,9 +349,3 @@ main::-webkit-scrollbar-thumb{
    }
 }
 `;
-
-
-
-
-
-

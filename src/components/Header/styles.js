@@ -7,7 +7,6 @@ grid-area: header;
 width: 100%;
 display: flex; 
 justify-content: space-between;
-padding: px;
 
 border-radius: 40px;
 backdrop-filter: blur(15px);
@@ -54,12 +53,13 @@ ul {
   flex-direction: column;
   align-items: center;
   padding: 10px;
+  
 
 }
 
 li {
-   font-size: 19px;
-   font-weight: bold;
+   font-size: 18px;
+   //font-weight: bold;
    list-style: none;
    padding: 2px;
    transition: .15s;

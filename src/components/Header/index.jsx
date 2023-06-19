@@ -10,7 +10,7 @@ export function Header(){
 
         <div className="nome">
          <Link to="/">
-            <img src="2.png" alt="logo"/>
+            <img src="logoLeandro.png" alt="Logo-Leandro"/>
          </Link>
         </div>
         
@@ -20,7 +20,7 @@ export function Header(){
          
          <nav>
             <ul>
-            <li>
+                <li>
                   <Link to="/">
                     Início
                   </Link>

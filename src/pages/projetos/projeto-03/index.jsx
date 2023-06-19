@@ -4,7 +4,7 @@ import { FaGithub } from "react-icons/fa";
 import { BsGlobe2 } from "react-icons/bs";
 import { FiArrowLeft} from 'react-icons/fi';
 
-import { Header } from '../../../components/Header';
+import { Navbar } from '../../../components/Header2';
 
 import { Link } from 'react-router-dom';
 
@@ -12,7 +12,7 @@ export function Projeto3() {
   
   return (
      <Container>
-      <Header />
+      <Navbar />
       <div className="page-pt">
          <div className="project">
              <h1>Food Explorer</h1>

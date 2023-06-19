@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  min-width: 500px;
+min-width: 425px;
+margin: 0 auto;
 
 .home {
    text-align: center;
@@ -37,7 +38,6 @@ export const Container = styled.div`
       border-radius: 5px;
       background-color: #04d361;
       
-      
    }
    
    button:hover {
@@ -67,7 +67,6 @@ export const Container = styled.div`
 
    > button {
       font-size: 14px;
-
       height: 35px;
       width: 120px;
    }
