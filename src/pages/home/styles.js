@@ -25,7 +25,6 @@ margin: 0 auto;
 
    b {
       font-weight: lighter;
-      text-decoration-line: underline;
    }
 
    > button {
