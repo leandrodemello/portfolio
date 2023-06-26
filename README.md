@@ -11,9 +11,21 @@ Desenvolvimento de interfaces de usuário modernas e responsivas com ReactJS.
 Design de protótipos visuais utilizando Figma.
 Configuração eficiente do ambiente de desenvolvimento com Vite.
 
-## Imagem  
+## Imagens  
 
-<img src="/assets/img/bgloop.gif">
+<div align="center">
+<img src="https://github.com/leandrodemello/portfolio/assets/105759339/a98ffe27-9ae6-464f-96df-838d700b4315" width="200px" />
+<img src="https://github.com/leandrodemello/portfolio/assets/105759339/8f1f987b-6880-4814-b6b4-7103bdf990eb"  width="200px" />
+<img src="https://github.com/leandrodemello/portfolio/assets/105759339/aa06d6ea-1975-45ec-a76e-7d34b0986092"  width="200px"/>
+<img src="https://github.com/leandrodemello/portfolio/assets/105759339/4d4f252b-e257-4347-ae2f-4c6ac92f9896"  width="200px"/>
+</div>
+
+<div align="center">
+<img src="https://github.com/leandrodemello/portfolio/assets/105759339/77495070-e7d1-4321-b8be-28f18844ea66" width="400px" />
+<img src="https://github.com/leandrodemello/portfolio/assets/105759339/fdd7d721-bbd2-4cc8-8de7-fa4bb706cd79"  width="400px" />
+<img src="https://github.com/leandrodemello/portfolio/assets/105759339/f7555ed1-6d5f-4e43-b1cb-b0bf62f48391"  width="400px"/>
+<img src="https://github.com/leandrodemello/portfolio/assets/105759339/c76db676-a987-44e3-84b5-b3e653862980"  width="400px"/>
+</div>
 
 ## Como Executar o Projeto
 Para executar o projeto em sua máquina local, siga as instruções abaixo:
