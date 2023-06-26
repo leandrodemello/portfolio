@@ -32,7 +32,7 @@ export function Projeto5() {
             </div>
 
             <div className='icone-d'>
-                <a href="https://leandrodemello.github.io/link-unico-leandro/" target="_blank">
+                <a href="https://link-unico-sociais.netlify.app/" target="_blank">
                     <BsGlobe2
                     />
                  </a>
