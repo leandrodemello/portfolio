@@ -1,3 +1,5 @@
+# Portfólio | Leandro Mello
+
 Bem-vindo ao meu portfolio! Aqui você encontrará uma coleção dos meus projetos mais recentes e destacados, onde utilizei minhas habilidades em desenvolvimento web utilizando JavaScript, ReactJS, Figma e Vite.
 
 ## Sobre o Projeto
@@ -8,6 +10,10 @@ Implementação de funcionalidades interativas utilizando JavaScript.
 Desenvolvimento de interfaces de usuário modernas e responsivas com ReactJS.
 Design de protótipos visuais utilizando Figma.
 Configuração eficiente do ambiente de desenvolvimento com Vite.
+
+## Imagem  
+
+<img src="/assets/img/bgloop.gif">
 
 ## Como Executar o Projeto
 Para executar o projeto em sua máquina local, siga as instruções abaixo:
@@ -33,17 +39,12 @@ Agradeço antecipadamente por qualquer contribuição!
 ## Contato
 Se você quiser entrar em contato comigo para oportunidades de trabalho, colaborações ou apenas para dizer olá, sinta-se à vontade para me contatar por meio dos seguintes canais:
 
-Email: leandro.devmcz@gmail.com
+Email: leandro.devmcz@gmail.com </br>
 LinkedIn: https://www.linkedin.com/in/leandro-mello-47a24823b/
 
 Obrigado por visitar meu portfolio e aproveite a exploração dos projetos!
 
-
 ## 🔗 Links
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://leandromello.dev/)
-
-
-    
-
+Portfolio: https://leandromello.dev/
 
 
