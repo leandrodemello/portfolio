@@ -28,6 +28,9 @@ Configuração eficiente do ambiente de desenvolvimento com Vite.
 <img src="https://github.com/leandrodemello/portfolio/assets/105759339/c76db676-a987-44e3-84b5-b3e653862980"  width="400px"/>
 </div>
 
+### Link do projeto
+https://leandromello.dev/
+
 ### Como Executar o Projeto
 Para executar o projeto em sua máquina local, siga as instruções abaixo:
 
