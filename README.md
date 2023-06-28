@@ -11,7 +11,7 @@ Desenvolvimento de interfaces de usuário modernas e responsivas com ReactJS.
 Design de protótipos visuais utilizando Figma.
 Configuração eficiente do ambiente de desenvolvimento com Vite.
 
-## Imagens  
+## Imagens Responsivas
 
 <div align="center">
 <img src="https://github.com/leandrodemello/portfolio/assets/105759339/a98ffe27-9ae6-464f-96df-838d700b4315" width="200px" />
@@ -20,6 +20,7 @@ Configuração eficiente do ambiente de desenvolvimento com Vite.
 <img src="https://github.com/leandrodemello/portfolio/assets/105759339/4d4f252b-e257-4347-ae2f-4c6ac92f9896"  width="200px"/>
 </div>
 
+## Imagens Desktop
 <div align="center">
 <img src="https://github.com/leandrodemello/portfolio/assets/105759339/77495070-e7d1-4321-b8be-28f18844ea66" width="400px" />
 <img src="https://github.com/leandrodemello/portfolio/assets/105759339/fdd7d721-bbd2-4cc8-8de7-fa4bb706cd79"  width="400px" />
