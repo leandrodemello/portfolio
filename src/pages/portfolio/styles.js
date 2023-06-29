@@ -32,49 +32,49 @@ main {
 main div:nth-child(1) {
    grid-area: A;
    background-color: #bfe0ce;
-   height: 240px; //altura vertical do cinza
-   width: 300px;  // largura horizontal do cinza
-   margin: 0 auto;  //margim horizontal do cinxa
+   height: 245px; 
+   width: 300px;  
+   margin: 0 auto;  
    
 }
 main div:nth-child(2) {
    grid-area: B;
    background-color: #bfe0ce;   
-   height: 240px; //altura vertical do cinza
-   width: 300px;  // largura horizontal do cinza
-   margin: 0 auto;  //margim horizontal do cinxa
+   height: 245px; 
+   width: 300px;  
+   margin: 0 auto;  
    
 }
 main div:nth-child(3) {
    grid-area: C;
    background-color: #bfe0ce;
-   height: 240px; //altura vertical do cinza
-   width: 300px;  // largura horizontal do cinza
-   margin: 0 auto;  //margim horizontal do cinxa
+   height: 245px; 
+   width: 300px;  
+   margin: 0 auto;  
 
 }
 main div:nth-child(4) {
    grid-area: D;
    background-color: #bfe0ce;
-   height: 240px; //altura vertical do cinza
-   width: 300px;  // largura horizontal do cinza
-   margin: 0 auto;  //margim horizontal do cinxa
+   height: 245px; 
+   width: 300px;  
+   margin: 0 auto;  
 
 }
 main div:nth-child(5) {
    grid-area: E;
    background-color: #bfe0ce;
-   height: 240px; //altura vertical do cinza
-   width: 300px;  // largura horizontal do cinza
-   margin: 0 auto;  //margim horizontal do cinxa
+   height: 245px; 
+   width: 300px;  
+   margin: 0 auto;  
 
 }
 main div:nth-child(6) {
    grid-area: F;
    background-color: #bfe0ce;
-   height: 240px; //altura vertical do cinza
-   width: 300px;  // largura horizontal do cinza
-   margin: 0 auto;  //margim horizontal do cinxa
+   height: 245px; 
+   width: 300px;  
+   margin: 0 auto;  
    
 }
 
@@ -90,46 +90,41 @@ main::-webkit-scrollbar-thumb{
 }
 
 .card {
-   //position: relative;
+   position: relative;
    border-radius: 3px;
    height: 360px;
+
    
 }
 
 .card img {
    margin: 12px 20px 0 20px; 
-   height: 13.0rem;  // altura vertical da imagem 23.0rem  pc 
-   width: 25.0rem;   // largura horizontal da imagem 38.rem  pc
+   height: 13.0rem;  
+   width: 25.0rem;   
    object-fit: cover;
-   
    border-radius: 3px;
-   
    transition: transform 200ms;
-   //opacity: 0.8;
+   opacity: 0.8;
 }
 
 .card img:hover {
    transform: scale(1.1);
-   //opacity: 1;
-   
+   opacity: 1;
 }
 
 .card h2 {
    display: flex;
    flex-direction: column; 
-   
    text-align: end;
    font-size: 18px;
    font-weight: 800;
 
    color: #000;
-   width: 100%;
-
    
    padding-right: 2.0rem;
    padding-left: 2.0rem;
    
-   //position: absolute;
+   position: absolute;
 }
 
 .card p {
@@ -153,7 +148,6 @@ main::-webkit-scrollbar-thumb{
   padding: 6px 6px;  
   border-radius: 7px; 
   cursor: pointer; 
-  //position: relative; 
   text-decoration: none;
   font-size: 12px;
   font-weight: 600; 
@@ -176,7 +170,6 @@ main::-webkit-scrollbar-thumb{
    gap: 0.5rem;
    padding: 1rem;
    border-radius: 3px;
-   font-weight: 800;
 
    color: #000;
 
@@ -209,8 +202,6 @@ main::-webkit-scrollbar-thumb{
       padding: 6px 6px; 
       border-radius: 7px; 
       cursor: pointer; 
-      //position: relative; 
-      text-decoration: none; 
       font-weight: 700; 
       font-family: 'Nunito', sans-serif; 
       color: rgb(255, 255, 255); 
@@ -231,6 +222,26 @@ main::-webkit-scrollbar-thumb{
          box-shadow: 5px 6px 0px rgb(0, 0, 0);
       }
 
+   }
+
+}
+
+.temp {
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   gap: 10px;
+   margin-top: 6px;
+
+   font-size: 15px;
+   font-weight: 300;
+   
+   > .bolaVerde {
+      color: #0bbd58;
+   }
+
+   > .bolaAmarela {
+      color: #d4d125;
    }
 
 }
@@ -274,45 +285,44 @@ main::-webkit-scrollbar-thumb{
 
    main div:nth-child(1) {
       grid-area: A;
-      height: 310px; //altura vertical do cinza
-      width: 435px;  // largura horizontal do cinza
+      height: 325px; 
+      width: 435px;  
       
    }
    main div:nth-child(2) {
       grid-area: B;
-      height: 310px; //altura vertical do cinza
-      width: 435px;  // largura horizontal do cinza
+      height: 325px; 
+      width: 435px;  
    
       
    }
    main div:nth-child(3) {
       grid-area: C;
-      height: 310px; //altura vertical do cinza
-      width: 435px;  // largura horizontal do cinza
+      height: 325px; 
+      width: 435px;  
    
    }
    main div:nth-child(4) {
       grid-area: D;
-      height: 310px; //altura vertical do cinza
-      width: 435px;  // largura horizontal do cinza
+      height: 325px; 
+      width: 435px;  
    
    }
    main div:nth-child(5) {
       grid-area: E;
-      height: 310px; //altura vertical do cinza
-      width: 435px;  // largura horizontal do cinza
+      height: 325px; 
+      width: 435px;  
    
    }
    main div:nth-child(6) {
       grid-area: F;
-      height: 310px; //altura vertical do cinza
-      width: 435px;  // largura horizontal do cinza
-   
+      height: 310px; 
+      width: 435px;     
    }
 
    .card img {
-      height: 20.0rem;  // altura vertical da imagem 23.0rem  pc 
-      width: 38.0rem;   // largura horizontal da imagem 38.rem  pc
+      height: 20.0rem;  
+      width: 38.0rem;   
    
    }
 
@@ -340,7 +350,7 @@ main::-webkit-scrollbar-thumb{
    }
 
    h1 {
-   margin-top: 20px;
+   margin-top: 40px;
    margin-bottom: 30px;
 
    }

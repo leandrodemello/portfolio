@@ -4,6 +4,9 @@ import { Navbar } from '../../components/Header2';
 import { Footer } from '../../components/Footer';
 
 import { FaGithub, FaLinkedin  } from "react-icons/fa";
+import { MdAccessTime  } from "react-icons/md";
+import { BsCheckCircleFill  } from "react-icons/bs";
+import { BsCircleFill  } from "react-icons/bs";
 
 import { Link } from 'react-router-dom';
 
@@ -17,47 +20,39 @@ export function Portfolio() {
 
           <h1 className='my-project'>Projetos</h1>
         <main>
-           {/* <div className="card">
-                <Link to="/projeto1"> 
-                  <img src="" alt="projeto 01"/>
-                </Link>
-            <h2>Clone da Netflix
-              <p>Um clone de uma das maiores stream do mundo....</p>
-              <span>
-                <button>HTML</button>
-                <button>CSS</button>
-                <button>JavaScript</button>
-                <button>ReactJs</button>
-              </span></h2>
-
-          </div>
-
-          <div className="card">
+        <div className="card">
               <Link to="/projeto2"> 
-                <img src="190703.jpg" alt="projeto 02"/>
-               </Link>
-            <h2>PROJETO 02
+                 <img src="225237.jpg" alt="projeto 02"/>
+              </Link>
+            <h2>Portfólio Pessoal
+              <p>Utilizei ReactJS para construir uma...</p>
               <span>
-              <button>ReactJs</button>
-              <button>JavaScript</button>
-              <button>Figma</button>
-              </span></h2>
-          </div>    background-color: #8BC6EC;
-background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
-    
-        */}
+                <button>ReactJS</button>
+                <button>JavaScript</button>
+                <button>Vite</button> 
+                <button>Figma</button>
+              </span>
+              <p className="temp">
+              <span className='bolaAmarela'><BsCircleFill /></span> Trabalhando nisso  <MdAccessTime /> 02/06/2023
+              </p>
+            </h2>
+          </div> 
+
           <div className="card">
               <Link to="/projeto3"> 
                  <img src="190428.jpg" alt="projeto 03"/>
               </Link>
             <h2>Food Explorer
-              <p>Um menu interativo para um restaurante ...</p>
+              <p>Um menu interativo para um restaura...</p>
               <span>
                 <button>ReactJS</button>
                 <button>JavaScript</button>
                 <button>SQLite</button> 
                 <button>NodeJS</button>
               </span>
+              <p className="temp">
+              <span className='bolaVerde'><BsCheckCircleFill /></span> Finalizado  <MdAccessTime /> 18/05/2023
+              </p>
             </h2>
           </div>        
         
@@ -67,16 +62,16 @@ background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
               </Link>
 
             <h2>Portfolio Explorer
-              <p>Uma SPA com ReactJS que foi desenvolvida...</p>
+              <p>Uma SPA com ReactJS que foi desenvol...</p>
               <span>
                 <button>ReactJS</button>
                 <button>JavaScript</button>
                 <button>SQLite</button> 
                 <button>NodeJS</button>
-
-
-
               </span>
+              <p className="temp">
+              <span className='bolaVerde'><BsCheckCircleFill /></span> Finalizado  <MdAccessTime /> 30/04/2023
+              </p>
             </h2>
           </div>        
         
@@ -86,15 +81,17 @@ background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
              </Link>
 
             <h2>Social Link 
-              <p>Esse projeto permite a integração de todas....</p>
+              <p>Esse projeto permite a integração de...</p>
 
               <span>
                 <button>JavaScript</button>
                 <button>CSS</button>
                 <button>HTML</button>
                 <button>Figma</button>
-
               </span>
+              <p className="temp">
+              <span className='bolaVerde'><BsCheckCircleFill /></span> Finalizado  <MdAccessTime /> 21/11/2022
+              </p>
             </h2>
           </div>        
         

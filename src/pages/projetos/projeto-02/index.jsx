@@ -15,14 +15,19 @@ export function Projeto2() {
       <Navbar />
       <div className="page-pt">
          <div className="project">
-             <h1>Clone da Netflix</h1>
-             <p>Um clone de uma das maiores stream do mundo.</p>
-             <img src="troll.gif" alt="projeto 02"/>
-             <span>Tech Stacks: ReactJS | JavaScript | CSS | HTML</span>
+             <h1>Portfólio Pessoal</h1>
+             <p>Utilizei ReactJS para construir uma aplicação web sofisticada e dinâmica. 
+              Com a ajuda do Styled Components, pude criar componentes estilizados de forma modular e 
+              altamente personalizável, garantindo uma aparência consistente e agradável em todo o projeto.
+              Para agilizar o desenvolvimento e melhorar a experiência de desenvolvedor, escolhi o Vite como 
+              minha ferramenta de construção e empacotamento. 
+              </p>
+             <img src="portfolio.gif" alt="projeto 02"/>
+             <span>Tech Stacks: Styled Components | ReactJS | Javascript | Vite | Figma</span>
             
             <div className='deploy'>
             <div className='icone-d'>
-                <a href="https://github.com/leandrodemello" target="_blank">
+                <a href="https://github.com/leandrodemello/portfolio" target="_blank">
                     <FaGithub 
                      />
                   </a>
@@ -30,7 +35,7 @@ export function Projeto2() {
             </div>
 
             <div className='icone-d'>
-                <a href="https://www.linkedin.com/in/leandro-mello-47a24823b/" target="_blank">
+                <a href="https://leandromello.dev/" target="_blank">
                     <BsGlobe2
                     />
                  </a>
