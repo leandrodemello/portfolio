@@ -32,7 +32,7 @@ main {
 main div:nth-child(1) {
    grid-area: A;
    background-color: #bfe0ce;
-   height: 245px; 
+   height: 255px; 
    width: 300px;  
    margin: 0 auto;  
    
@@ -40,7 +40,7 @@ main div:nth-child(1) {
 main div:nth-child(2) {
    grid-area: B;
    background-color: #bfe0ce;   
-   height: 245px; 
+   height: 255px; 
    width: 300px;  
    margin: 0 auto;  
    
@@ -48,7 +48,7 @@ main div:nth-child(2) {
 main div:nth-child(3) {
    grid-area: C;
    background-color: #bfe0ce;
-   height: 245px; 
+   height: 255px; 
    width: 300px;  
    margin: 0 auto;  
 
@@ -56,7 +56,7 @@ main div:nth-child(3) {
 main div:nth-child(4) {
    grid-area: D;
    background-color: #bfe0ce;
-   height: 245px; 
+   height: 255px; 
    width: 300px;  
    margin: 0 auto;  
 
@@ -64,7 +64,7 @@ main div:nth-child(4) {
 main div:nth-child(5) {
    grid-area: E;
    background-color: #bfe0ce;
-   height: 245px; 
+   height: 255px; 
    width: 300px;  
    margin: 0 auto;  
 
@@ -72,7 +72,7 @@ main div:nth-child(5) {
 main div:nth-child(6) {
    grid-area: F;
    background-color: #bfe0ce;
-   height: 245px; 
+   height: 255px; 
    width: 300px;  
    margin: 0 auto;  
    
@@ -90,7 +90,7 @@ main::-webkit-scrollbar-thumb{
 }
 
 .card {
-   position: relative;
+   //position: relative;
    border-radius: 3px;
    height: 360px;
 
@@ -104,7 +104,6 @@ main::-webkit-scrollbar-thumb{
    object-fit: cover;
    border-radius: 3px;
    transition: transform 200ms;
-   opacity: 0.8;
 }
 
 .card img:hover {
@@ -123,8 +122,7 @@ main::-webkit-scrollbar-thumb{
    
    padding-right: 2.0rem;
    padding-left: 2.0rem;
-   
-   position: absolute;
+   //position: absolute;
 }
 
 .card p {
