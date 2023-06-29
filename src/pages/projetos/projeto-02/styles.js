@@ -94,6 +94,7 @@ export const Container = styled.div`
 
    > h1 {
       font-size: 40px;
+      margin-top: 0px;
    }
 
    > p {
