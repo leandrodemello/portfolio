@@ -36,10 +36,13 @@ margin: 0 auto;
       margin-top: 20px;
       border-radius: 5px;
       background-color: #04d361;
+
+      transition: transform 200ms;
       
    }
    
    button:hover {
+      transform: scale(1.1);
       background-color: #039645;
    }
 

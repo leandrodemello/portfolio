@@ -10,12 +10,15 @@ margin: 0 auto;
 }
 
 .init {
-  padding: 5px;
+  padding: 20px;
   margin: 50px 40px;
+
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 1.55);
 
  > h1 {
    font-size: 22px;
-   margin-top: 20px;
 
  }
 
@@ -24,7 +27,7 @@ margin: 0 auto;
    line-height: 35px;
    text-align: justify;
    font-weight: lighter;
-   margin-top: 5px;
+   margin-top: 30px;
    
   }
   

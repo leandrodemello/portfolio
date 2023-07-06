@@ -14,7 +14,9 @@ export function Navbar(){
 
   return (
     <Container >
+      <Link to="/">
       <img src="logoLeandro.png" alt="Logo-Leandro" />
+      </Link>
       <header>
 
         <nav ref={navRef}>

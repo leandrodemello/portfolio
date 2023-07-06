@@ -6,9 +6,8 @@ margin: 0 auto;
 
 h1 {
    font-size: 3.0rem;
-   margin: 40px 0 0 10px;
-
    text-align: center;
+   margin: 40px 0 0 10px;
 
    line-height: 6.0rem;
    letter-spacing: 1px;
@@ -90,7 +89,7 @@ main::-webkit-scrollbar-thumb{
 }
 
 .card {
-   //position: relative;
+   position: relative;
    border-radius: 3px;
    height: 360px;
 
@@ -98,9 +97,9 @@ main::-webkit-scrollbar-thumb{
 }
 
 .card img {
-   margin: 12px 20px 0 20px; 
-   height: 13.0rem;  
-   width: 25.0rem;   
+   margin: 12px 20px 0 20px;
+   height: 13.0rem;
+   width: 25.0rem; 
    object-fit: cover;
    border-radius: 3px;
    transition: transform 200ms;
@@ -122,7 +121,7 @@ main::-webkit-scrollbar-thumb{
    
    padding-right: 2.0rem;
    padding-left: 2.0rem;
-   //position: absolute;
+   
 }
 
 .card p {
@@ -270,6 +269,7 @@ main::-webkit-scrollbar-thumb{
    
 @media (min-width: 1020px) {
    .page {
+      margin-top: 30px;
       padding: 0 40px;
    }
    main {
@@ -320,17 +320,22 @@ main::-webkit-scrollbar-thumb{
 
    .card img {
       height: 20.0rem;  
-      width: 38.0rem;   
+      width: 38.0rem;
    
    }
 
+   .card img:hover {
+   transform: scaleX(1.1);
+   }
+
    .card h2 {
-   font-size: 20px;
-   width: 100%;
+      font-size: 20px;
+      width: 100%;
+      
    }
 
    .card p {
-   font-size: 15px;
+      font-size: 15px;
    
    }
 

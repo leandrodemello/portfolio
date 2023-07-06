@@ -17,12 +17,16 @@ export function About() {
 
           <div className='init'>
 
-            <h1>Olá Mundo!</h1>
-            <h2>Me chamo <b>Leandro Mello</b>, moro em Alagoas
-            e sou um <b>Desenvolvedor Web Front-End</b> apaixonado por tecnologia. <br /> 
-            Desde que comecei tenho estado em constante aprendizado, sempre me colocando a 
-            disposição para aprender uma nova tecnologia ou ferramenta, porque acredito que na 
-            programação não existe um limite, sempre há um próximo nível e estou sempre em busca dele.</h2>
+            <h1>Olá, Mundo!</h1>
+            <h2>Sou <b>Leandro Mello</b>, residente em Alagoas, e possuo uma paixão inabalável pela tecnologia 
+            como <b> Desenvolvedor Web Front-End</b>. 
+            
+            Desde que dei os primeiros passos nessa jornada, tenho mergulhado em
+            um constante processo de aprendizado. 
+            Sempre me mantenho aberto para absorver novas tecnologias e 
+            ferramentas, pois acredito firmemente que na programação não há limites definidos.
+            Sempre existe um próximo patamar a ser conquistado, e eu persigo esse desafio incessantemente.
+            </h2>
 
           </div>
 

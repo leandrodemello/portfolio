@@ -8,16 +8,16 @@ export default createGlobalStyle`
 }
 
 *::-webkit-scrollbar {
-  width: 5px;
+  width: 6px;
 }
 
 *::-webkit-scrollbar-track {
-  background: #c5c4c4;
+  background: #dadada;
 }
 
 *::-webkit-scrollbar-thumb {
-  background-color: #03FA6E;
-  border-radius: 1.0rem;
+  background-color: #8d9490;
+  border-radius: 3px;
 }
 
 :root {

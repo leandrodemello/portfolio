@@ -20,6 +20,23 @@ export function Portfolio() {
 
           <h1 className='my-project'>Projetos</h1>
         <main>
+        <div className="card-end">
+              <span>
+                Mais em breve...  
+              </span>
+              <p>
+                Me siga no Github e Linkedin para ficar por dentro!  
+              </p>
+              <div className='icon-port'>
+                <a href="https://github.com/leandrodemello" target="_blank">
+                    <button><FaGithub /> <p> GitHub </p></button>
+                  </a>
+                <a href="https://www.linkedin.com/in/leandro-mello-47a24823b/" target="_blank">
+                    <button><FaLinkedin/> <p>Linkedin</p></button>
+                 </a>
+            </div>
+
+          </div>
         <div className="card">
               <Link to="/projeto2"> 
                  <img src="225237.jpg" alt="projeto 02"/>
@@ -94,26 +111,8 @@ export function Portfolio() {
               </p>
             </h2>
           </div>        
-        
-          <div className="card-end">
-              <span>
-                Mais em breve...  
-              </span>
-              <p>
-                Me siga no Github e Linkedin para ficar por dentro!  
-              </p>
-              <div className='icon-port'>
-                <a href="https://github.com/leandrodemello" target="_blank">
-                    <button><FaGithub /> <p> GitHub </p></button>
-                  </a>
-                <a href="https://www.linkedin.com/in/leandro-mello-47a24823b/" target="_blank">
-                    <button><FaLinkedin/> <p>Linkedin</p></button>
-                 </a>
-            </div>
 
-          </div>
         </main>
-
       </div>
 
       <Footer />

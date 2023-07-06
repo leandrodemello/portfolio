@@ -67,10 +67,11 @@ form {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  transition: transform 200ms;
 }
    
 .button:hover {
-  border: none;
+  transform: scale(1.1);
   background-color: #039645;
 }
 

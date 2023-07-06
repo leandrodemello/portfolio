@@ -9,8 +9,8 @@ export function Home() {
 
       <div className="home">
         <img src="logo-header.png" alt="logo"/>
-        <h1>Desenvolvendo produtos incríveis <br />através do Design e do Código.</h1>
-        <p><b>Desenvolvedor Web Front-End</b> com <br /> conhecimentos de UI/UX Design.</p>
+        <h1>Desenvolvendo produtos incríveis <br/> através do Design e do Código.</h1>
+        <p> Desenvolvedor Web Front-End com conhecimentos de UI/UX Design, <br /> trazendo o melhor dos dois mundos.</p>
 
         <button>
           <Link to="/about">

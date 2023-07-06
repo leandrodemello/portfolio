@@ -1,36 +1,29 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-
 img {
    width: 120px;
    height: 90px;
-   margin-left: 30px;
-   margin-top: -26px;
-   position: fixed;
-   z-index: 1;
+   margin-left: 15px;
+   margin-top: -25px;
+   position: absolute;
+   z-index: 4;
          
-}
+  }
 
 header {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
-  padding: 10px;
-
   width: 100%;
   margin-top: 5px;
   height: 40px;
   border-radius: 40px;
-  backdrop-filter: blur(15px);
   background: rgba(255, 255, 255, 0.1);
   box-shadow: 0 0 10px 1px rgba(0, 0, 0, 1.55);
-  -webkit-backdrop-filter: blur(15px);
-
+  
   > nav a {
-    margin-left: 90px;
-    text-decoration: none;
     font-size: 19px;
     font-weight: bold;
 
@@ -68,7 +61,7 @@ header {
   header nav {
     top: 0px;
     left: 0px;
-    height: 200px;
+    height: 270px;
     width: 100%;
     position: absolute;
     display: flex;
@@ -81,6 +74,18 @@ header {
     gap: 10px;
     transform: translateY(-100vh);
     z-index: 5;
+    
+    a {
+      height: 35px;
+      width: 60%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      border-bottom-style: solid;
+      border-bottom-width: 2px;
+      border-color: #03FA6E;
+    }
 
   }
 
@@ -90,10 +95,20 @@ header {
 
   header .nav-close-btn {
     position: absolute;
-    top: 0px;
+    top: 5px;
     right: 0px;
 
   }
 }
 
+@media (min-width: 801px) {
+nav a {
+  margin-left: 90px;
+  margin-right: -10px;
+}
+
+img {
+   margin-left: 40px;
+}
+}
 `;

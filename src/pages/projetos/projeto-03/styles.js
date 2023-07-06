@@ -78,7 +78,7 @@ export const Container = styled.div`
       font-size: 15px;
       font-weight: 800;
       gap: 3px;
-     padding-left: 20px;
+      padding-left: 20px;
       margin-bottom: 20px;
 
    }
