@@ -1,3 +1,4 @@
+/* eslint-disable import/prefer-default-export */
 import { BrowserRouter } from "react-router-dom";
 
 import { AppRoutes } from "./app.routes";

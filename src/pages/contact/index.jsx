@@ -3,11 +3,11 @@ import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 
+import { FaGithub, FaLinkedin  } from "react-icons/fa";
 import { Container } from './styles';
 import { Imput } from '../../components/Imput';
 import { Textarea } from '../../components/Textarea';
 
-import { FaGithub, FaLinkedin  } from "react-icons/fa";
 import { Navbar } from '../../components/Header2';
 
 export function Contact() {
@@ -27,8 +27,8 @@ export function Contact() {
 
     const templateParams = {
       from_name: name,
-      message: message,
-      email: email
+      message,
+      email
     }
 
     emailjs.send("service_pemksdk", "template_ds828xv", templateParams, "PzHoeLG1yXqd_QHAo")
@@ -78,14 +78,14 @@ export function Contact() {
 
           <div className='icones'>
             <div className='item'>
-                <a href="https://github.com/leandrodemello" title="GitHub" target="_blank">
+                <a href="https://github.com/leandrodemello" title="GitHub" target="_blank" rel="noreferrer">
                     <FaGithub 
                      />
                   </a>
             </div>
 
             <div className='item'>
-                <a href="https://www.linkedin.com/in/leandro-mello-47a24823b/" title="Linkedin" target="_blank">
+                <a href="https://www.linkedin.com/in/leandro-mello-47a24823b/" title="Linkedin" target="_blank" rel="noreferrer">
                     <FaLinkedin
                     />
                  </a>

@@ -1,3 +1,4 @@
+/* eslint-disable import/prefer-default-export */
 import { Routes, Route } from "react-router-dom";
 
 import { Home } from '../pages/home';

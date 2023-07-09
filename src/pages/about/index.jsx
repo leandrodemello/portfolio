@@ -1,9 +1,10 @@
+/* eslint-disable import/prefer-default-export */
+import { FaGithub, FaLinkedin  } from "react-icons/fa";
+import { BsFileEarmarkArrowDownFill} from "react-icons/bs";
 import { Container } from './styles';
 
 import { Navbar } from '../../components/Header2';
 
-import { FaGithub, FaLinkedin  } from "react-icons/fa";
-import { BsFileEarmarkArrowDownFill} from "react-icons/bs";
 
 
 export function About() {
@@ -32,7 +33,7 @@ export function About() {
 
           <div className='container'>
             <div className='item'>
-                <a href="https://github.com/leandrodemello" title="GitHub" target="_blank">
+                <a href="https://github.com/leandrodemello" title="GitHub" target="_blank" rel="noreferrer">
                     <FaGithub 
                      />
                   </a>
@@ -40,14 +41,14 @@ export function About() {
             
 
             <div className='item'>
-                <a href="https://www.linkedin.com/in/leandro-mello-47a24823b/" title="Linkedin" target="_blank">
+                <a href="https://www.linkedin.com/in/leandro-mello-47a24823b/" title="Linkedin" target="_blank" rel="noreferrer">
                     <FaLinkedin
                     />
                  </a>
             </div>
 
             <div className='item'>
-                <a href="https://drive.google.com/u/1/uc?id=15B0dDZVmSJB5w4jD3_XsVtvhqd7rNFbf&export=download" title="Baixar CV" target="_blank">
+                <a href="https://drive.google.com/u/1/uc?id=15B0dDZVmSJB5w4jD3_XsVtvhqd7rNFbf&export=download" title="Baixar CV" target="_blank" rel="noreferrer">
                     <BsFileEarmarkArrowDownFill
                     />
                 </a>
